@@ -5,5 +5,9 @@ export default defineTheme({
   color: {
     primary: colors.teal,
     secondary: colors.gray
+  },
+
+  media: {
+    xs: '#a10c0c'
   }
 })
