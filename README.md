@@ -1,6 +1,6 @@
-# My Website
+# viviansarazin.com
 
-My website made by [Content Wind](https://content-wind.nuxt.space) theme.
+viviansarazin.com made by [Content Wind](https://content-wind.nuxt.space) theme.
 
 ## Setup
 
