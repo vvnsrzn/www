@@ -6,6 +6,8 @@ imgSrc: '/assets/images/projects/groupe-nomblot/cover.png'
 slug: 'groupe-nomblot'
 ---
 
+![groupe-nomblot.webp](/projects/groupe-nomblot.webp)
+
 For this website, I used the following technologies:
 - **Frontend**
   - Framework: NuxtJS
