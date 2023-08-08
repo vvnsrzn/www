@@ -8,6 +8,6 @@ export default defineTheme({
   },
 
   media: {
-    xs: '#a10c0c'
+    xs: '(min-width: 450px)'
   }
 })
