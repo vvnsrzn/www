@@ -4,7 +4,7 @@ description: 'E-commerce website for cars and after sales'
 stack: ['NuxtJS', 'Composition', 'Typescript', 'RabbitMQ', 'NestJS' , 'GitLab', 'ClickUp', 'Cypress']
 ---
 
-![groupe-nomblot.webp](/projects/groupe-nomblo.webp)
+![groupe-nomblot.webp](/projects/groupe-nomblot.webp)
 
 ## Groupe Nomblot
 
