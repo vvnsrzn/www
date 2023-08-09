@@ -6,7 +6,13 @@ stack: ['NuxtJS', 'Composition', 'Typescript', 'FastAPI', 'GitLab', 'ClickUp', '
 
 ![omicure.webp](/projects/omicure.webp)
 
-For this website, I used the following technologies:
+## TrialFinder by OmiCure
+
+[Corporate website](https://omicure.com)
+
+*TrialFinder is not in production yet!*
+
+For this web app, I used the following technologies:
 - **Frontend**
   - Framework: NuxtJS
   - CSS: TailwindCSS

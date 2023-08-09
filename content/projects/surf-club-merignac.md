@@ -6,7 +6,12 @@ stack: ['NuxtJS', 'Options API', 'Javascript', 'Strapi', 'GitLab', 'Cypress']
 
 ![scm.webp](/projects/scm.webp)
 
-For this website, I used the following technologies:
+## Surf Club Mérignac
+
+*Unfortnunately this app is not reachable!*
+
+
+For this web app, I used the following technologies:
 - **Frontend**
   - Framework: NuxtJS
   - CSS: TailwindCSS
