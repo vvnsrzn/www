@@ -10,6 +10,6 @@
   "devDependencies": {
     "@nuxthq/studio": "^0.13.4",
     "content-wind": "latest",
-    "nuxt": "latest"
+    "nuxt": "^3.7.0"
   }
 }
