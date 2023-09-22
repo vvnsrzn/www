@@ -1,15 +1,15 @@
 # Solinum
 
-Thanks to [Zenika Brest](https://zenika.com/en-US/agency/brest), my new job, I had the chance to work as a volunteer for [Solinum](https://www.solinum.org/) via a [Vendredi](https://en.vendredi.cc/) partnership.
+Thanks to [Zenika Brest](https://zenika.com/en-US/agency/brest), I had the chance to work as a volunteer for [Solinum](https://www.solinum.org/) via a [Vendredi](https://en.vendredi.cc/) partnership.
 
 The job was pretty straightforward, to setup an open-source tracking analytics solutions called [PostHog](https://posthog.com/).
 
-Technical stack:
-- GitHub
+Solinum's technical stack:
 - TypeScript
-- Lerna
 - Express
 - Angular
+- Lerna
+- GitHub
 
 As the mono-repository is well organized (real clean archi this time), it was quite fast to add some code.
 
@@ -21,7 +21,7 @@ The TypeScript implemetation was very handy too. I quickly stumbled upon all the
 
 ### Type stuffs
 
-As described earlier, my job is to setup a tracking system. In order to avoid some fuzzy events, I suggested a simple tracking rule.
+As described earlier, my job was to setup a tracking system. In order to avoid some fuzzy events, I suggested a simple tracking rule.
 
 With TypeScript litterals this suggestion turned quite robust.
 
@@ -43,15 +43,13 @@ export const TRACKED_EVENTS = {
 } satisfies TrackedEvents;
 ```
 
-The const declaration avoid the [enum problem](https://www.youtube.com/watch?v=jjMbPt_H3RQ).
-
-And the satisfies operator ensure a magical inference.
+The const declaration avoid the [enum problem](https://www.youtube.com/watch?v=jjMbPt_H3RQ) and the satisfies operator ensure a magical inference.
 
 ### Refactor
 
-By removing the former analytics integration (mongodb documents), I managed to delete a bunch of files/lines. Always cool.
+By removing the former analytics integration (MongoDB documents), I managed to delete a bunch of files/lines. Always cool.
 
-I also took the initiative to refactor some specs with the infamous jeast it.each method.
+I also took the initiative to refactor some specs with the infamous jest it.each method.
 
 A use case where ChatGPT is delightful.
 
