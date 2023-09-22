@@ -1,5 +1,7 @@
 # Projects
 
+[Solinum](/projects/solinum)
+
 [Groupe Nomblot](/projects/groupe-nomblot)
 
 [OmiCure](/projects/omicure)
