@@ -1,10 +1,11 @@
+# Resume
+
 ## Basics
 
 - Dad 👨‍👩‍👧‍👧
 - He/his 
 - 34 y/o
-- Quimper (:fr:)
-- 5 coding years
+- Quimper :fr:
 
 ---
 
@@ -20,6 +21,19 @@
 ---
 
 ## Recent Experiences
+
+### Zenika (2023-now)
+**Consultant / trainer**
+
+**Development**
+- High-scale front-end refactor
+  - Options API -> Composition API
+  - "Clean archi" -> Dead-simple archi
+- End-to-end testing
+
+**Technical Environment**: VueJS, NodeJS, Playwright, Sonar, GitLab, Microsoft Azure, Elastic, Jira, Figma
+
+****
 
 ### Freelance (2019-2023)
 
