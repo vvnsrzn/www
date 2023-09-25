@@ -22,7 +22,7 @@
 
 ## Recent Experiences
 
-### Zenika (2023-now)
+### [Zenika](https://zenika.com/) (2023-now)
 **Consultant / trainer**
 
 **Development**
@@ -37,7 +37,7 @@
 
 ### Freelance (2019-2023)
 
-#### French bank (NDA)
+#### [A bank](https://preview.redd.it/no-i-signed-an-nda-v0-q95u76oz1r5b1.jpg?width=640&crop=smart&auto=webp&s=d44622f53396690f407a2d2be5b95375b9ab04ef)
 **Tech lead**
 
 **Design & Planning**
@@ -53,7 +53,7 @@
 **Technical Environment**: NuxtJS, TailwindCSS, NodeJS, PostgreSQL, MeiliSearch, Cypress, Sonar, GitLab, Microsoft Azure, Docker, Grafana, ClickUp, Jira, Figma
 
 
-#### Groupe Nomblot
+#### [Groupe Nomblot](https://groupe-nomblot.com/)
 **Tech lead**
 
 **Design & Planning**
@@ -71,7 +71,7 @@
 
 **Technical Environment**: NuxtJS, TailwindCSS, NodeJS, NestJS, PostgreSQL, MeiliSearch, Cypress, RabbitMQ, GitLab, Docker, Grafana, ClickUp, Figma
 
-#### OmiCure
+#### [OmiCure](https://www.omicure.com/)
 **Tech lead**
 
 **Design & Planning**
@@ -87,7 +87,7 @@
 
 **Technical Environment**: NuxtJS, TailwindCSS, FastAPI, PostgreSQL, MeiliSearch, Cypress, GitLab, Docker, Grafana, ClickUp
 
-### OCUS (2019)
+### [OCUS](https://www.ocus.com/) (2019)
 **Growth Engineer**
 
 - Executed several MVPs
@@ -96,7 +96,7 @@
 
 **Technical Environment**: ReactJS, VueJS, NuxtJS, Express, MongoDB, GitLab, Docker
 
-### Hubstairs 
+### [Nfinite](https://www.nfinite.app/) (2018)
 **Web Developer**
 
 - Developed interfaces featuring thousands of articles
@@ -109,9 +109,9 @@
 
 ## Education
 
-- Data Analyst - Le Wagon - Bordeaux - 2021
-- Web Developer - IronHack - Paris - 2018
-- Master's in Entrepreneurship - IFAG - Lyon - 2014
+- Data Analyst - [Le Wagon](https://www.lewagon.com/) - Bordeaux - 2021
+- Web Developer - [IronHack](https://www.ironhack.com/) - Paris - 2018
+- Master in Entrepreneurship - [IFAG](https://www.ifag.com/) - Lyon - 2014
 
 ---
 
