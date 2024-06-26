@@ -28,8 +28,9 @@
 
 **Development**
 
-- High-scale front-end refactor * Options API -> Composition API
-  * "Clean archi" -> Dead-simple archi
+- High-scale front-end refactor
+  - Options API -> Composition API
+  - "Clean archi" -> Dead-simple archi
 - End-to-end testing
 
 **Technical Environment**: VueJS, NodeJS, Playwright, Sonar, GitLab, Microsoft Azure, Elastic, Jira, Figma
@@ -38,7 +39,7 @@
 
 ### Freelance (2019-2023)
 
-#### [A bank](https://preview.redd.it/no-i-signed-an-nda-v0-q95u76oz1r5b1.jpg?width=640\&crop=smart\&auto=webp\&s=d44622f53396690f407a2d2be5b95375b9ab04ef)
+#### [A bank]
 
 **Tech lead**
 
