@@ -4,7 +4,7 @@
 
 - Dad 👨‍👩‍👧‍👧
 - He/his
-- 34 y/o
+- 35 y/o
 - Quimper 🇫🇷
 
 ---
@@ -12,8 +12,8 @@
 ## Skills
 
 - VueJS/NuxtJS: Advanced
+- TypeScript: Advanced
 - Testing: Intermediate
-- TypeScript: Intermediate
 - NodeJS: Intermediate
 - Python: Basic
 - CI/CD: Basic
@@ -39,7 +39,7 @@
 
 ### Freelance (2019-2023)
 
-#### [A bank]
+#### A bank
 
 **Tech lead**
 
