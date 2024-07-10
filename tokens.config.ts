@@ -6,7 +6,6 @@ export default defineTheme({
     primary: colors.teal,
     secondary: colors.gray
   },
-
   media: {
     xs: '(min-width: 450px)'
   }

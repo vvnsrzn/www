@@ -1,11 +1,14 @@
+---
+title: 'Projects'
+description: 'My best projects made so far'
+---
+
 # Projects
 
-[Solinum](/projects/solinum)
+[Solinum](/projects/solinum) - a non-profit mission with a bunch of ts
 
-[Groupe Nomblot](/projects/groupe-nomblot)
+[Groupe Nomblot](/projects/groupe-nomblot) - an e-commerce website with my A-Team
 
-[OmiCure](/projects/omicure)
+[OmiCure](/projects/omicure) - a tool to find the best clincial trial a.k.a TrialFinder
 
-[Pme Partner](/projects/pme-partner)
-
-[Surf Club Mérignac](/projects/surf-club-merignac)
+[Pme Partner](/projects/pme-partner) - a b2b website made with Gridsome
