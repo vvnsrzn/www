@@ -1,3 +1,8 @@
+---
+title: 'Resume'
+description: 'My corporate resume'
+---
+
 # Resume
 
 ## Basics
@@ -14,26 +19,37 @@
 - VueJS/NuxtJS: Advanced
 - TypeScript: Advanced
 - Testing: Intermediate
+- Web API: Intermediate
 - NodeJS: Intermediate
+- Craft & Agile: Intermediate
 - Python: Basic
 - CI/CD: Basic
 
 ---
 
-## Recent Experiences
+## Experiences
 
 ### [Zenika](https://zenika.com/) (2023-now)
 
-**Consultant**
+**Web development consultant**
 
-**Development**
+- Micro front-end with the Module Federation technique
+- High-scale front-end refactor (Options -> Composition mostly)
+- Testing (unit, integration and end-to-end)
 
-- High-scale front-end refactor
-  - Options API -> Composition API
-  - "Clean archi" -> Dead-simple archi
-- End-to-end testing
+*Technical Environment: VueJS, NodeJS, Playwright, Verdaccio, Artifactory, Storybook, Sonar, GitLab, Microsoft Azure, Elastic, Jira, Figma*
 
-**Technical Environment**: VueJS, NodeJS, Playwright, Sonar, GitLab, Microsoft Azure, Elastic, Jira, Figma
+**Trainer**
+
+- VueJS
+- Advanced VueJS
+- Coaching future trainer
+
+**Manager**
+
+- 1-to-1
+- Annual interview
+- Salary increase committee
 
 ---
 
@@ -55,7 +71,7 @@
 - CI/CD
 - Heavy pressure on deliveries
 
-**Technical Environment**: NuxtJS, TailwindCSS, NodeJS, PostgreSQL, MeiliSearch, Cypress, Sonar, GitLab, Microsoft Azure, Docker, Grafana, ClickUp, Jira, Figma
+*Technical Environment: NuxtJS, TailwindCSS, NodeJS, PostgreSQL, MeiliSearch, Cypress, Sonar, GitLab, Microsoft Azure, Docker, Grafana, ClickUp, Jira, Figma*
 
 #### [Groupe Nomblot](https://groupe-nomblot.com/)
 
@@ -76,7 +92,7 @@
 - Microservices architecture
 - CI/CD
 
-**Technical Environment**: NuxtJS, TailwindCSS, NodeJS, NestJS, PostgreSQL, MeiliSearch, Cypress, RabbitMQ, GitLab, Docker, Grafana, ClickUp, Figma
+*Technical Environment: NuxtJS, TailwindCSS, NodeJS, NestJS, PostgreSQL, MeiliSearch, Cypress, RabbitMQ, GitLab, Docker, Grafana, ClickUp, Figma*
 
 #### [OmiCure](https://www.omicure.com/)
 
@@ -95,7 +111,7 @@
 - Built an interface
 - CI/CD
 
-**Technical Environment**: NuxtJS, TailwindCSS, FastAPI, PostgreSQL, MeiliSearch, Cypress, GitLab, Docker, Grafana, ClickUp
+*Technical Environment: NuxtJS, TailwindCSS, FastAPI, PostgreSQL, MeiliSearch, Cypress, GitLab, Docker, Grafana, ClickUp*
 
 ### [OCUS](https://www.ocus.com/) (2019)
 
@@ -105,7 +121,7 @@
 - Designed, developed, and managed projects
 - Integrated multiple APIs
 
-**Technical Environment**: ReactJS, VueJS, NuxtJS, Express, MongoDB, GitLab, Docker
+*Technical Environment: ReactJS, VueJS, NuxtJS, Express, MongoDB, GitLab, Docker*
 
 ### [Nfinite](https://www.nfinite.app/) (2018)
 
@@ -115,7 +131,7 @@
 - Created import scripts (XML/JSON)
 - Designed interior decoration scenes
 
-**Technical Environment**: ReactJS, Express, RabbitMQ, MongoDB, GitLab, Docker, Rancher
+*Technical Environment: ReactJS, Express, RabbitMQ, MongoDB, GitLab, Docker, Rancher*
 
 ---
 

@@ -1,3 +1,10 @@
+---
+title: 'Solinum'
+description: 'A very cool non-profit mission'
+stack: ['TypeScript', 'Express', 'PostHog']
+---
+
+
 # Solinum
 
 Thanks to [Zenika Brest](https://zenika.com/en-US/agency/brest), I had the chance to work as a volunteer for [Solinum](https://www.solinum.org/) via a [Vendredi](https://en.vendredi.cc/) partnership.

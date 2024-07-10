@@ -4,7 +4,7 @@ description: 'A business website'
 stack: ['Gridsome', 'Composition', 'GraphQL', 'Wordpress']
 ---
 
-![pme-partner.webp](/projects/pme-partner.webp)
+![pme-partner.webp](/projects/pme-partner.webp){style="border-radius:0px"}
 
 ## Pme Partner
 

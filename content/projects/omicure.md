@@ -4,7 +4,7 @@ description: 'A clinical trials search engine'
 stack: ['NuxtJS', 'Composition', 'Typescript', 'FastAPI', 'GitLab', 'ClickUp', 'Cypress']
 ---
 
-![omicure.webp](/projects/omicure.webp)
+![omicure.webp](/projects/omicure.webp){style="border-radius:0px"}
 
 ## TrialFinder by OmiCure
 
