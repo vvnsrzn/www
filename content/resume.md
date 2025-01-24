@@ -9,18 +9,19 @@ description: 'My corporate resume'
 
 - Dad 👨‍👩‍👧‍👧
 - He/his
-- 35 y/o
+- 36 y/o
 - Quimper 🇫🇷
 
 ---
 
 ## Skills
 
-- VueJS/NuxtJS: Advanced
+- Svelte/SvelteKit: Intermediate
+- Vue/Nuxt: Advanced
 - TypeScript: Advanced
 - Testing: Intermediate
 - Web API: Intermediate
-- NodeJS: Intermediate
+- Node: Intermediate
 - Craft & Agile: Intermediate
 - Python: Basic
 - CI/CD: Basic
@@ -29,7 +30,21 @@ description: 'My corporate resume'
 
 ## Experiences
 
-### [Zenika](https://zenika.com/) (2023-now)
+### [Hublo](https://hublo.com/) 
+
+_2024-now_
+
+**Senior frontend engineer**
+
+- Animating the Community of Frontend Practices
+- Testing strategies (unit, component and e2e)
+- Frontend architecture
+
+*Technical Environment: SvelteKit, Nest, Playwright, Jira, Nx, Storybook, Sonar, Github*
+
+### [Zenika](https://zenika.com/) 
+
+_2023-2024_
 
 **Web development consultant**
 
@@ -37,12 +52,12 @@ description: 'My corporate resume'
 - High-scale front-end refactor (Options -> Composition mostly)
 - Testing (unit, integration and end-to-end)
 
-*Technical Environment: VueJS, NodeJS, Playwright, Verdaccio, Artifactory, Storybook, Sonar, GitLab, Microsoft Azure, Elastic, Jira, Figma*
+*Technical Environment: Vue, Node, Playwright, Verdaccio, Artifactory, Storybook, Sonar, GitLab, Microsoft Azure, Elastic, Jira, Figma*
 
 **Trainer**
 
-- VueJS
-- Advanced VueJS
+- Vue
+- Advanced Vue
 - Coaching future trainer
 
 **Manager**
@@ -53,7 +68,9 @@ description: 'My corporate resume'
 
 ---
 
-### Freelance (2019-2023)
+### Freelance 
+
+_2019-2023_
 
 #### A bank
 
@@ -71,7 +88,7 @@ description: 'My corporate resume'
 - CI/CD
 - Heavy pressure on deliveries
 
-*Technical Environment: NuxtJS, TailwindCSS, NodeJS, PostgreSQL, MeiliSearch, Cypress, Sonar, GitLab, Microsoft Azure, Docker, Grafana, ClickUp, Jira, Figma*
+*Technical Environment: Nuxt, TailwindCSS, Node, PostgreSQL, MeiliSearch, Cypress, Sonar, GitLab, Microsoft Azure, Docker, Grafana, ClickUp, Jira, Figma*
 
 #### [Groupe Nomblot](https://groupe-nomblot.com/)
 
@@ -92,7 +109,7 @@ description: 'My corporate resume'
 - Microservices architecture
 - CI/CD
 
-*Technical Environment: NuxtJS, TailwindCSS, NodeJS, NestJS, PostgreSQL, MeiliSearch, Cypress, RabbitMQ, GitLab, Docker, Grafana, ClickUp, Figma*
+*Technical Environment: Nuxt, TailwindCSS, Node, Nest, PostgreSQL, MeiliSearch, Cypress, RabbitMQ, GitLab, Docker, Grafana, ClickUp, Figma*
 
 #### [OmiCure](https://www.omicure.com/)
 
@@ -111,9 +128,11 @@ description: 'My corporate resume'
 - Built an interface
 - CI/CD
 
-*Technical Environment: NuxtJS, TailwindCSS, FastAPI, PostgreSQL, MeiliSearch, Cypress, GitLab, Docker, Grafana, ClickUp*
+*Technical Environment: Nuxt, TailwindCSS, FastAPI, PostgreSQL, MeiliSearch, Cypress, GitLab, Docker, Grafana, ClickUp*
 
-### [OCUS](https://www.ocus.com/) (2019)
+### [OCUS](https://www.ocus.com/) 
+
+_2019_
 
 **Growth Engineer**
 
@@ -121,9 +140,11 @@ description: 'My corporate resume'
 - Designed, developed, and managed projects
 - Integrated multiple APIs
 
-*Technical Environment: ReactJS, VueJS, NuxtJS, Express, MongoDB, GitLab, Docker*
+*Technical Environment: ReactJS, Vue, Nuxt, Express, MongoDB, GitLab, Docker*
 
-### [Nfinite](https://www.nfinite.app/) (2018)
+### [Nfinite](https://www.nfinite.app/) 
+
+_2018_
 
 **Web Developer**
 

@@ -1,7 +1,7 @@
 ---
 title: 'Groupe Nomblot'
 description: 'E-commerce website for cars and after sales'
-stack: ['NuxtJS', 'Composition', 'Typescript', 'RabbitMQ', 'NestJS' , 'GitLab', 'ClickUp', 'Cypress']
+stack: ['Nuxt', 'Composition', 'Typescript', 'RabbitMQ', 'Nest' , 'GitLab', 'ClickUp', 'Cypress']
 ---
 
 ![groupe-nomblot.webp](/projects/groupe-nomblot.webp){style="border-radius:0px"}
@@ -12,10 +12,10 @@ stack: ['NuxtJS', 'Composition', 'Typescript', 'RabbitMQ', 'NestJS' , 'GitLab', 
 
 For this web site, I used the following technologies:
 - **Frontend**
-  - Framework: NuxtJS
+  - Framework: Nuxt
   - CSS: TailwindCSS
 - **Backend**
-  - Framework: ExpressJS (and later NestJS)
+  - Framework: ExpressJS (and later Nest)
   - Database: PostgreSQL
   - Messaging: RabbitMQ
 - **Project management**

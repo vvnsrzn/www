@@ -1,7 +1,7 @@
 ---
 title: 'TrialFinder by OmiCure'
 description: 'A clinical trials search engine'
-stack: ['NuxtJS', 'Composition', 'Typescript', 'FastAPI', 'GitLab', 'ClickUp', 'Cypress']
+stack: ['Nuxt', 'Composition', 'Typescript', 'FastAPI', 'GitLab', 'ClickUp', 'Cypress']
 ---
 
 ![omicure.webp](/projects/omicure.webp){style="border-radius:0px"}
@@ -14,7 +14,7 @@ stack: ['NuxtJS', 'Composition', 'Typescript', 'FastAPI', 'GitLab', 'ClickUp', '
 
 For this web app, I used the following technologies:
 - **Frontend**
-  - Framework: NuxtJS
+  - Framework: Nuxt
   - CSS: TailwindCSS
 - **Backend**
   - Framework: FastAPI
