@@ -5,6 +5,8 @@ description: 'My best projects made so far'
 
 # Projects
 
+[Radio France](/projects/radiofrance-svelte-youtube-lite) - my first contribution on a Svelte project
+
 [David Poupon](/projects/david-poupon) - my smallest website in a while
 
 [Solinum](/projects/solinum) - a non-profit mission with a bunch of ts
