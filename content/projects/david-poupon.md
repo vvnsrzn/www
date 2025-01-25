@@ -4,41 +4,39 @@ description: 'My very first website with SvelteKit'
 stack: ['SvelteKit', 'Vercel']
 ---
 
-At Hublo, we do SvelteKit. Before starting my new job, I had to learn a framework. 
+*At Hublo, we work with SvelteKit. Before starting my new job, I had to learn this framework.*
 
-One of the best ways to do so, is to spin up a tiny project. IMO, the smallest, the better.
+*One of the best ways to do so, is by creating a small project. IMO, the smaller, the better!*
 
 # David Poupon
 
-I had a chance to meet [David Poupon](https://www.poupon-paysage.fr) which is a talented trimmer, starting his own company.
+I had a chance to meet [David Poupon](https://www.poupon-paysage.fr) a talented trimmer, starting his own company.
 
-As a solo entrepreneur, David need a website to showcase his work and his contact informations.
+As a solo entrepreneur, David needed a website to showcase his work and provide his contact informations.
 
-So I decided to help him and create a pro-bono website.
+To help ourselves, I proposed to create this pro-bono website.
 
-The main objective for David is to rank first on Google.
+The main objective for David is to rank well on Google.
 
-No matters the technology or the underlying architecture pattern.
+As you can expect, I just received a logo, a phone number and a few pictures.
 
-As you can expect, I just received a logo, a phone number and some pictures.
-
-But it's OK, I had some details to start the project.
-
-Hopefully in a LLM world, you can transform a 200 characters brief into a description.
+But it's OK, I had some details to start a minimal project.
 
 ## Images in SvelteKit
 
-A part very interesting in this project was on the pictures management.
+An interesting part of this project was managing the images.
 
 Obviously, David didn't hear about Web Vitals, image compression, Google Lighthouse and all of this.
 
-So David sent me a load of very large pictures to display on this website.
+David sent me a load of very large pictures to display on this website.
 
-As a lazy man, I wanted to find a way to resize images directly on the SvelteKit's server, and then, display an optimized image to the client. 
+As a lazy developer, I wanted to find a way to resize images directly on the SvelteKit's server, and then, display an optimized image to the client. 
 
 And here comes [@sveltejs/enhanced-img](https://svelte.dev/docs/kit/images#sveltejs-enhanced-img).
 
-By leveraging Vite's assets handling, SvelteKit offers a great DX.
+By leveraging Vite's assets handling features, SvelteKit provides a great DX.
+
+### Importing images
 
 You just need to import your images with some params (see the query):
 
@@ -55,8 +53,9 @@ You just need to import your images with some params (see the query):
 </script>
 ```
 
-And after, inside your Svelte template, you loop over the imported images with the dedicated ```enhanced:img``` tag:
+### Display images
 
+Thus, inside your Svelte template, you loop over the imported images with the dedicated ```enhanced:img``` tag:
 
 ```html
 <div class="my-4 grid grid-cols-2 gap-4 md:px-64">
@@ -71,7 +70,9 @@ And after, inside your Svelte template, you loop over the imported images with t
 </div>
 ```
 
-And then, the output will be something like this!
+### The output
+
+The output is an HTML ```<picture>``` element with multiple formats like avif, webp, and jpeg:
 
 ```html
 <picture>
@@ -85,9 +86,9 @@ And then, the output will be something like this!
     <img src="https://www.smthg/-01.BaYrOgC0.jpeg" alt="Débroussaillage - 0" width="1280" height="1707"></picture>
 ```
 
-For the final user this is something great, because the device can choose whatever suits for him, all by using the standard HTML picture tag.
+This ensures the client’s device chooses the best format and size, improving performance and loading times.
 
-However, this add a step on the build part which is not a problem for a solo entrepreneur website.
+However, this add a step on the build part which is not a problem for a solo entrepreneur website, but can lead to a quite long build on a big project.
 
 ## Developer Experience
 
@@ -97,7 +98,7 @@ Deployments are not my favorite stuffs. But it's an important part of our job.
 
 I basically start a Vercel project, connected my repo and the domain name and it worked like a charm.
 
-For this kink of micro website, Vercel is a very good one.
+For this kind of micro-websites, Vercel is an excellent choice.
 
 SvelteKit offers a wide range of [adapters](https://svelte.dev/docs/kit/adapters) if you want to deploy elsewhere.
 
@@ -107,4 +108,8 @@ Doing this website was fast and pretty pleasant, since Svelte is made on the top
 
 The tooling is quite nice, and the Svelte's compiler warnings is a brillant idea. 
 
-Thanks to this, I corrected some markups mistakes before getting the error in Google Lighthouse.
+Thanks to this, I corrected some markups mistakes before getting these errors in Google Lighthouse.
+
+----------------------------------
+
+This project was a great learning experience and a fantastic introduction to SvelteKit.
