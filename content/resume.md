@@ -4,7 +4,9 @@ description: 'My corporate resume'
 ---
 
 👨 36 years old
+
 👨‍👩‍👧‍👧 Father of 2
+
 🇫🇷 Quimper
 
 ---
