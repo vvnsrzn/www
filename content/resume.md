@@ -3,14 +3,6 @@ title: 'Resume'
 description: 'My corporate resume'
 ---
 
-👨 36 years old
-
-👨‍👩‍👧‍👧 Father of 2
-
-🇫🇷 Quimper
-
----
-
 ## EXPERIENCE
 
 ### **Hublo, Paris — Confirmed Frontend Engineer**
