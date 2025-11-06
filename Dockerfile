@@ -2,13 +2,15 @@ FROM node:22-alpine AS builder
 
 WORKDIR /app
 
-COPY package.json package-lock.json ./
+RUN npm i -g pnpm
 
-RUN npm ci
+COPY package.json pnpm-lock.yaml ./
+
+RUN pnpm i --frozen-lockfile
 
 COPY . .
 
-RUN npm run generate
+RUN pnpm run generate
 
 FROM nginx:stable-alpine
 
