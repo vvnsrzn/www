@@ -1,7 +1,17 @@
 ---
-title: 'Groupe Nomblot'
-description: 'E-commerce website for cars and after sales'
-stack: ['Nuxt', 'Composition', 'Typescript', 'RabbitMQ', 'Nest' , 'GitLab', 'ClickUp', 'Cypress']
+title: "Groupe Nomblot"
+description: "E-commerce website for cars and after sales"
+stack:
+  [
+    "Nuxt",
+    "Composition",
+    "Typescript",
+    "RabbitMQ",
+    "Nest",
+    "GitLab",
+    "ClickUp",
+    "Cypress",
+  ]
 ---
 
 ![groupe-nomblot.webp](/projects/groupe-nomblot.webp){style="border-radius:0px"}
@@ -11,6 +21,7 @@ stack: ['Nuxt', 'Composition', 'Typescript', 'RabbitMQ', 'Nest' , 'GitLab', 'Cli
 [Website](https://www.groupe-nomblot.com)
 
 For this web site, I used the following technologies:
+
 - **Frontend**
   - Framework: Nuxt
   - CSS: TailwindCSS

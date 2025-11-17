@@ -1,11 +1,11 @@
 ---
-title: 'Misc'
-description: 'Some stuffs (talks, demo, boilerplate ...).'
+title: "Misc"
+description: "Some stuffs (talks, demo, boilerplate ...)."
 ---
 
 # Misc
 
-[AoC Starter](https://github.com/vvnsrzn/aoc-ts) - my *starter kit des champions* for this famous challenge
+[AoC Starter](https://github.com/vvnsrzn/aoc-ts) - my _starter kit des champions_ for this famous challenge
 
 [MeiliSearch](https://github.com/vvnsrzn/meili101) - a quick demo of the best open source search module
 

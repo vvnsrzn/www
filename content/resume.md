@@ -1,6 +1,6 @@
 ---
-title: 'Resume'
-description: 'My corporate resume'
+title: "Resume"
+description: "My corporate resume"
 ---
 
 ## EXPERIENCE
@@ -9,13 +9,13 @@ description: 'My corporate resume'
 
 **2024 – Present**
 
-* Migrated from SvelteKit to React, managing frontend evolution.
-* Implemented end-to-end testing with Playwright + Gherkin.
-* Maintained the health of a monorepo (dependencies, documentation, onboarding for Linux devs).
-* Active in the frontend community of practice.
-* Initiated temporary frontend environments for collaboration across Product, Design, Support, and Tech.
-* Introduced an RFC → ADR decision process, and led microfrontend architecture via Module Federation.
-* Engaged in social activities (Advent of Code, sis.tech partnership).
+- Migrated from SvelteKit to React, managing frontend evolution.
+- Implemented end-to-end testing with Playwright + Gherkin.
+- Maintained the health of a monorepo (dependencies, documentation, onboarding for Linux devs).
+- Active in the frontend community of practice.
+- Initiated temporary frontend environments for collaboration across Product, Design, Support, and Tech.
+- Introduced an RFC → ADR decision process, and led microfrontend architecture via Module Federation.
+- Engaged in social activities (Advent of Code, sis.tech partnership).
 
 **Stack**: SvelteKit, React, Nest, Playwright, Jira, Nx, Storybook, Sonar, GitHub
 
@@ -27,34 +27,34 @@ description: 'My corporate resume'
 
 #### Consultant – Arkéa
 
-* Contributed to internal frontend libraries (auth, testing, linting, scaffolding).
-* Supported \~300 internal apps using the SoFA stack.
-* Promoted mob-programming and conventional comments.
-* Supported teams with performance and delivery.
-* Web Components integration and frontend community facilitation.
+- Contributed to internal frontend libraries (auth, testing, linting, scaffolding).
+- Supported \~300 internal apps using the SoFA stack.
+- Promoted mob-programming and conventional comments.
+- Supported teams with performance and delivery.
+- Web Components integration and frontend community facilitation.
 
 **Stack**: VueJS, NodeJS, Cypress, Verdaccio, Artifactory, Storybook, Sonar, GitLab
 
 #### Consultant – InVivo
 
-* Worked on e-commerce platforms (Aladin, Farmi).
-* Refactored a flawed clean architecture, leveraging VueJS contexts/stores.
-* Migrated from Options API to Composition API.
-* Participated in e2e testing.
+- Worked on e-commerce platforms (Aladin, Farmi).
+- Refactored a flawed clean architecture, leveraging VueJS contexts/stores.
+- Migrated from Options API to Composition API.
+- Participated in e2e testing.
 
 **Stack**: VueJS, NodeJS, Playwright, Storybook, Sonar, GitLab, Elastic, Jira, Figma
 
 #### Manager
 
-* Led internal consultant teams.
-* Participated in agency management.
-* Salary reviews, and annual interviews.
+- Led internal consultant teams.
+- Participated in agency management.
+- Salary reviews, and annual interviews.
 
 #### Trainer
 
-* Delivered QUALIOPI-certified VueJS training.
-* Rewrote chapters (Reusability, Testing, Performance).
-* Trained trainer.
+- Delivered QUALIOPI-certified VueJS training.
+- Rewrote chapters (Reusability, Testing, Performance).
+- Trained trainer.
 
 ---
 
@@ -62,10 +62,10 @@ description: 'My corporate resume'
 
 **2023**
 
-* Mobile app: offline capability, performance.
-* Web app: widget-heavy dashboards, optimized for Core Web Vitals.
-* API: REST Api
-* TDD + mob-programming for robust development.
+- Mobile app: offline capability, performance.
+- Web app: widget-heavy dashboards, optimized for Core Web Vitals.
+- API: REST Api
+- TDD + mob-programming for robust development.
 
 **Stack**: VueJS, Django, Cypress, PostgreSQL, GitLab, Fabriq
 
@@ -77,8 +77,8 @@ description: 'My corporate resume'
 
 **2022 – 2023**
 
-* Created internal directory platform with strict security compliance.
-* Handled frontend, backend, CI/CD, testing, accessibility (WCAG 2.1).
+- Created internal directory platform with strict security compliance.
+- Handled frontend, backend, CI/CD, testing, accessibility (WCAG 2.1).
 
 **Stack**: Nuxt, FastAPI, Cypress, Tailwind, PostgreSQL, MeiliSearch, GitLab, ClickUp, Azure
 
@@ -86,8 +86,8 @@ description: 'My corporate resume'
 
 **2021 – 2022**
 
-* Full e-commerce rebuild: frontend, microservices, back office.
-* SEO, Analytics.
+- Full e-commerce rebuild: frontend, microservices, back office.
+- SEO, Analytics.
 
 **Stack**: Nuxt, Express, Cypress, Tailwind, Nest, PostgreSQL, MeiliSearch, Strapi, RabbitMQ, GitLab, ClickUp
 
@@ -95,9 +95,9 @@ description: 'My corporate resume'
 
 **2021**
 
-* Built “TrialFinder” for cancer clinical trials.
-* Scraped and enriched public datasets using NLP.
-* Complex DB schema, optimized APIs.
+- Built “TrialFinder” for cancer clinical trials.
+- Scraped and enriched public datasets using NLP.
+- Complex DB schema, optimized APIs.
 
 **Stack**: FastAPI, Nuxt, GitLab, Grafana, ClickUp, PostgreSQL
 
@@ -105,7 +105,7 @@ description: 'My corporate resume'
 
 **2019 – 2020**
 
-* Led full redesign including SEO, Google Suite integration, and CDD methodology.
+- Led full redesign including SEO, Google Suite integration, and CDD methodology.
 
 **Stack**: VueJS, Gridsome, Tailwind, WordPress, GraphQL, GitLab
 
@@ -115,7 +115,7 @@ description: 'My corporate resume'
 
 **2019**
 
-* Delivered MVPs: legal simulator, prospecting dashboard, exhibition locator.
+- Delivered MVPs: legal simulator, prospecting dashboard, exhibition locator.
 
 **Stack**: React, Nuxt, Bootstrap, Express
 
@@ -125,7 +125,7 @@ description: 'My corporate resume'
 
 **2018 – 2019**
 
-* Created 3D interior scenes for Unity/Blender integration.
+- Created 3D interior scenes for Unity/Blender integration.
 
 **Stack**: React, Express, Node, GitLab, 3D engines
 
@@ -135,8 +135,8 @@ description: 'My corporate resume'
 
 **2018**
 
-* Supported students and organized extra workshops for those struggling.
-* Mentored many student projects.
+- Supported students and organized extra workshops for those struggling.
+- Mentored many student projects.
 
 **Stack**: ReactJS, Express, Node, GitHub
 
@@ -144,13 +144,13 @@ description: 'My corporate resume'
 
 ## EDUCATION
 
-* **Le Wagon, Bordeaux** – Data Analyst (2021)
+- **Le Wagon, Bordeaux** – Data Analyst (2021)
   Advanced skills in Python & SQL.
 
-* **IronHack, Paris** – Web Developer (2018)
+- **IronHack, Paris** – Web Developer (2018)
   VueJS stack. Became Teacher Assistant for 3 sessions.
 
-* **IFAG, Lyon** – Business Manager (2014)
+- **IFAG, Lyon** – Business Manager (2014)
   Master’s degree in International Relations (English-taught).
 
 ---

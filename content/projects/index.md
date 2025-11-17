@@ -1,6 +1,6 @@
 ---
-title: 'Projects'
-description: 'My best projects made so far'
+title: "Projects"
+description: "My best projects made so far"
 ---
 
 # Projects
