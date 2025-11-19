@@ -49,7 +49,7 @@ jobs:
             ${{ runner.os }}-playwright-
 
       - name: Install Playwright browsers
-        run: pnpm run prepare
+        run: npx playwright install chromium
 
       - name: Run tests
         run: pnpm test
