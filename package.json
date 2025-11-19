@@ -12,7 +12,6 @@
     "preview": "nuxi preview",
     "lint": "eslint .",
     "test": "playwright test",
-    "prepare": "npx playwright install",
     "format": "prettier --write ."
   },
   "dependencies": {
