@@ -2,9 +2,6 @@ name: test-on-main
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
@@ -21,21 +18,44 @@ jobs:
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
+        with:
+          node-version: 22
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
 
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - name: Setup pnpm cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-
 
       - name: Install Playwright browsers
-        run: pnpm run prepare
+        run: npx playwright install chromium
 
       - name: Run tests
         run: pnpm test
 
       - name: Test results
-        if: always()
+        if: failure()
         uses: actions/upload-artifact@v4
         with:
           name: test-results
