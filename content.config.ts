@@ -1,4 +1,4 @@
-import { defineCollection, defineContentConfig, z } from '@nuxt/content'
+import { defineCollection, defineContentConfig, z } from "@nuxt/content";
 
 export default defineContentConfig({
   collections: {
@@ -7,11 +7,11 @@ export default defineContentConfig({
      * Create `content.config.ts` in project root to overwrite this
      */
     content: defineCollection({
-      type: 'page',
-      source: '**',
+      type: "page",
+      source: "**",
       schema: z.object({
         layout: z.string(),
       }),
     }),
   },
-})
+});

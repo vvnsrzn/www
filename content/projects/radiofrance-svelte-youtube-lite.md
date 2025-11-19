@@ -1,12 +1,12 @@
 ---
-title: 'Radiofrance svelte-youtube-lite'
-description: 'My very first open source contriubtion on Svelte'
-stack: ['SvelteKit', 'Playwright']
+title: "Radiofrance svelte-youtube-lite"
+description: "My very first open source contriubtion on Svelte"
+stack: ["SvelteKit", "Playwright"]
 ---
 
-*At Hublo, we work with SvelteKit. Before starting my new job, I had to learn this framework.*
+_At Hublo, we work with SvelteKit. Before starting my new job, I had to learn this framework._
 
-*One of the best ways to do so, is also by contributing on Open Source projects. IMO, the smaller, the better! (again)*
+_One of the best ways to do so, is also by contributing on Open Source projects. IMO, the smaller, the better! (again)_
 
 # Radiofrance svelte-youtube-lite
 
@@ -16,7 +16,7 @@ I already did a [small website](/projects/david-poupon), this time I wanted to m
 
 I stumbled upon this [Radiofrance's project](https://github.com/radiofrance/svelte-youtube-lite) by navigating on Github.
 
-svelte-youtube-lite is "*a simple svelte component for creating YouTube embeds with a focus on performance and privacy (GDPR compliant).*".
+svelte-youtube-lite is "_a simple svelte component for creating YouTube embeds with a focus on performance and privacy (GDPR compliant)._".
 
 Around that time, Svelte 5 had just been released, and I thought submitting a PR to migrate the project from Svelte 4 to Svelte 5 would be a great way to contribute.
 
@@ -40,11 +40,10 @@ However, to be sure that my migration was OK, I wrote **before** the migration s
 
 This ensures that the migration didn't break anything on the component behavior.
 
-----------------------------------
+---
 
 This contribution was a lot of fun, especially because the Radiofrance maintainer was quick to review my PR.
 
 ![radio-france.webp](/projects/radiofrance.webp){style="border-radius:0px"}
 
 Seeing the project reach version 1.0.0 after my PR was far beyond what I expected!
-

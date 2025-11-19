@@ -1,15 +1,15 @@
-import tailwindcss from '@tailwindcss/vite'
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
   modules: [
-    '@nuxt/content',
-    '@nuxt/icon',
-    '@nuxt/eslint',
-    '@nuxtjs/color-mode',
+    "@nuxt/content",
+    "@nuxt/icon",
+    "@nuxt/eslint",
+    "@nuxtjs/color-mode",
   ],
 
-  css: ['assets/css/main.css'],
-  colorMode: { classSuffix: '' },
+  css: ["assets/css/main.css"],
+  colorMode: { classSuffix: "" },
 
   content: {
     build: {
@@ -17,8 +17,8 @@ export default defineNuxtConfig({
         highlight: {
           // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
           theme: {
-            dark: 'github-dark',
-            default: 'github-light',
+            dark: "github-dark",
+            default: "github-light",
           },
         },
       },
@@ -27,7 +27,7 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-  compatibilityDate: '2025-02-19',
+  compatibilityDate: "2025-02-19",
 
   vite: { plugins: [tailwindcss()] },
-})
+});

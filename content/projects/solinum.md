@@ -1,9 +1,8 @@
 ---
-title: 'Solinum'
-description: 'A very cool non-profit mission'
-stack: ['TypeScript', 'Express', 'PostHog']
+title: "Solinum"
+description: "A very cool non-profit mission"
+stack: ["TypeScript", "Express", "PostHog"]
 ---
-
 
 # Solinum
 
@@ -12,6 +11,7 @@ Thanks to [Zenika Brest](https://zenika.com/en-US/agency/brest), I had the chanc
 The job was pretty straightforward, to setup an open-source tracking analytics solutions called [PostHog](https://posthog.com/).
 
 Solinum's technical stack:
+
 - TypeScript
 - Express
 - Angular
@@ -33,14 +33,16 @@ As described earlier, my job was to setup a tracking system. In order to avoid s
 With TypeScript litterals this suggestion turned quite robust.
 
 Type definition
+
 ```ts
-type Action = "EDIT" | "VIEW"; 
+type Action = "EDIT" | "VIEW";
 type Feature = "PLACE" | "SEARCH";
 type TrackedEvent = `${Action}_${Feature}`;
 type TrackedEvents = { [T in TrackedEvent]?: Lowercase<T> };
 ```
 
 Constants
+
 ```ts
 import { TrackedEvents } from "../types/TrackedEvents.type";
 

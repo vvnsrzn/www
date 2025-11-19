@@ -10,9 +10,9 @@ defineProps({
   },
   icon: {
     type: String,
-    default: '',
+    default: "",
   },
-})
+});
 </script>
 
 <template>
@@ -22,11 +22,7 @@ defineProps({
       :external="external"
       class="inline-flex items-center gap-1 text-white! bg-gray-800 dark:bg-gray-200 !dark:text-gray-950 px-3 py-1 rounded no-underline"
     >
-      <Icon
-        v-if="icon"
-        :name="icon"
-        class="w-4 h-4"
-      />
+      <Icon v-if="icon" :name="icon" class="w-4 h-4" />
       <slot mdc-unwrap="p" />
     </NuxtLink>
   </span>
