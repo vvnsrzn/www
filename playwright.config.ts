@@ -11,4 +11,5 @@ export default defineConfig({
     headless: true,
   },
   projects: [{ name: "Chromium", use: { browserName: "chromium" } }],
+  outputDir: "test-results",
 });
