@@ -18,7 +18,7 @@ const isOpen = defineModel<boolean>("isOpen", { required: true });
     <nav class="hidden md:flex text-gray-700 dark:text-gray-200">
       <NuxtLink
         v-for="link in links"
-        :to="link.path"
+        :to="link.path + '/'"
         :key="link.path"
         active-class="font-bold"
         class="mr-6"

@@ -12,7 +12,7 @@ _One of the best ways to do so, is also by contributing on Open Source projects.
 
 My goal was to find a small open-source project using Svelte, in order to try to contribute in there.
 
-I already did a [small website](/projects/david-poupon), this time I wanted to make something a little bit more technical.
+I already did a [small website](/projects/david-poupon/), this time I wanted to make something a little bit more technical.
 
 I stumbled upon this [Radiofrance's project](https://github.com/radiofrance/svelte-youtube-lite) by navigating on Github.
 

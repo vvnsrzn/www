@@ -18,7 +18,7 @@ const isOpen = defineModel<boolean>("isOpen", { required: true });
       <NuxtLink
         v-for="link in links"
         :key="link.path"
-        :to="link.path"
+        :to="link.path + '/'"
         active-class="font-bold"
         class="hover:text-gray-900 dark:hover:text-white"
         @click="isOpen = false"
