@@ -1,12 +1,7 @@
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
-  modules: [
-    "@nuxt/content",
-    "@nuxt/icon",
-    "@nuxt/eslint",
-    "@nuxtjs/color-mode",
-  ],
+  modules: ["@nuxt/content", "@nuxt/icon", "@nuxt/eslint", "@nuxtjs/color-mode", "@nuxtjs/seo"],
 
   css: ["assets/css/main.css"],
   colorMode: { classSuffix: "" },
@@ -30,4 +25,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-02-19",
 
   vite: { plugins: [tailwindcss()] },
+  site: {
+    trailingSlash: true,
+  },
 });
