@@ -1,202 +1,174 @@
----
-title: "Resume"
-description: "My corporate resume"
----
+## Experience
 
-## EXPERIENCE
+### Hublo, Paris — Frontend Lead
+*2024 – Present*
 
-### **Hublo, Paris — Confirmed Frontend Engineer**
+- **People & community leadership:** Leading and animating a frontend community of 10 engineers — facilitating knowledge sharing, aligning practices, and fostering a culture of continuous improvement.
+- **Technical governance:** Introduced RFC-based decision-making processes, resulting in ADRs that standardized the frontend stack across the organization (framework selection, testing strategy, accessibility, performance).
+- **Architecture & migration:** Initiated a microfrontend architecture via Module Federation to support team scalability and independent deployments.
+- **Quality & delivery:** Implemented end-to-end testing with Playwright + Gherkin. Championing quality ownership within the monorepo through shared tooling, CI/CD improvements.
+- **Technical roadmap influence:** Contributing to roadmap prioritization in collaboration with Product, balancing tech debt reduction with feature delivery.
+- **Culture & engagement:** Driving social and community initiatives (Advent of Code, sis.tech partnership) to strengthen team cohesion and engineering culture.
 
-**2024 – Present**
-
-- Migrated from SvelteKit to React, managing frontend evolution.
-- Implemented end-to-end testing with Playwright + Gherkin.
-- Maintained the health of a monorepo (dependencies, documentation, onboarding for Linux devs).
-- Active in the frontend community of practice.
-- Initiated temporary frontend environments for collaboration across Product, Design, Support, and Tech.
-- Introduced an RFC → ADR decision process, and led microfrontend architecture via Module Federation.
-- Engaged in social activities (Advent of Code, sis.tech partnership).
-
-**Stack**: SvelteKit, React, Nest, Playwright, Jira, Nx, Storybook, Sonar, GitHub
+**Stack:** SvelteKit, React, Nest, Playwright, Jira, Nx, Storybook, GitHub
 
 ---
 
-### **Zenika, Brest — Consultant, Manager & Trainer**
-
-**2023 – 2024**
-
-#### Consultant – Arkéa
-
-- Contributed to internal frontend libraries (auth, testing, linting, scaffolding).
-- Supported \~300 internal apps using the SoFA stack.
-- Promoted mob-programming and conventional comments.
-- Supported teams with performance and delivery.
-- Web Components integration and frontend community facilitation.
-
-**Stack**: VueJS, NodeJS, Cypress, Verdaccio, Artifactory, Storybook, Sonar, GitLab
-
-#### Consultant – InVivo
-
-- Worked on e-commerce platforms (Aladin, Farmi).
-- Refactored a flawed clean architecture, leveraging VueJS contexts/stores.
-- Migrated from Options API to Composition API.
-- Participated in e2e testing.
-
-**Stack**: VueJS, NodeJS, Playwright, Storybook, Sonar, GitLab, Elastic, Jira, Figma
+### Zenika, Brest — Consultant, Manager & Trainer
+*2023 – 2024*
 
 #### Manager
-
-- Led internal consultant teams.
-- Participated in agency management.
-- Salary reviews, and annual interviews.
+- Managed a team of consultants with regular 1:1s, annual performance reviews, and active participation in salary review committees. Supported career growth through personalized development plans.
+- Participated in recruiting processes — screening, technical interviews, and hiring decisions.
+- Contributed to agency-level management and strategic discussions.
 
 #### Trainer
+- Designed and delivered QUALIOPI-certified Vue.js training programs. 
+- Rewrote key chapters (Reusability, Testing, Performance).
+- Trained other trainers — scaling knowledge transfer across the organization.
 
-- Delivered QUALIOPI-certified VueJS training.
-- Rewrote chapters (Reusability, Testing, Performance).
-- Trained trainer.
+#### Consultant — Arkéa (Socle Frontend)
+- Contributed to internal frontend libraries (auth, testing, linting, scaffolding) supporting ~300 internal applications.
+- Promoted mob-programming and conventional comments as engineering best practices.
+- Facilitated the frontend community of practice and supported teams on performance and delivery.
+- Web Components integration and cross-team technical alignment.
+
+**Stack:** VueJS, NodeJS, Cypress, Verdaccio, Artifactory, Storybook, Sonar, GitLab
+
+#### Consultant — InVivo
+- Worked on e-commerce platforms (Aladin, Farmi).
+- Refactored a flawed clean architecture, leveraging VueJS contexts/stores.
+- Led migration from Options API to Composition API and contributed to e2e testing strategy.
+
+**Stack:** VueJS, NodeJS, Playwright, Storybook, Sonar, GitLab, Elastic, Jira, Figma
 
 ---
 
-### **Fabriq, Paris — Software Engineer**
+### Fabriq, Paris — Software Engineer
+*2023*
 
-**2023**
+- Developed features across mobile and web SaaS applications. Focused on performance optimization (Core Web Vitals), widget-heavy dashboards, data visualization, and offline capabilities.
+- Built and maintained REST APIs.
+- Practiced TDD and mob programming within an agile team — contributing to a strong engineering culture and collective code ownership.
 
-- Mobile app: offline capability, performance.
-- Web app: widget-heavy dashboards, optimized for Core Web Vitals.
-- API: REST Api
-- TDD + mob-programming for robust development.
-
-**Stack**: VueJS, Django, Cypress, PostgreSQL, GitLab, Fabriq
+**Stack:** VueJS, Django, Cypress, PostgreSQL, GitLab
 
 ---
 
-### **Freelance Tech Lead – France**
+### Freelance — Tech Lead
+*2019 – 2023*
 
-#### **(NDA)**
+- **Team leadership:** Led cross-functional teams of up to 10 people (frontend, backend, infrastructure, SEO, design) across 4 concurrent projects, coordinating delivery and mentoring developers (~4 engineers per project).
+- **Product collaboration:** Worked closely with Product Owners and stakeholders to define priorities, scope features, and align technical decisions with business goals.
 
-**2022 – 2023**
-
+#### (NDA) — Bank (2022 – 2023)
 - Created internal directory platform with strict security compliance.
 - Handled frontend, backend, CI/CD, testing, accessibility (WCAG 2.1).
 
-**Stack**: Nuxt, FastAPI, Cypress, Tailwind, PostgreSQL, MeiliSearch, GitLab, ClickUp, Azure
+**Stack:** Nuxt, FastAPI, Cypress, Tailwind, PostgreSQL, MeiliSearch, GitLab, ClickUp, Azure
 
-#### **Groupe Nomblot**
+#### Groupe Nomblot (2021 – 2022)
+- Full e-commerce rebuild: frontend, microservices architecture, back office. 
+- Led architecture decisions, team delivery, SEO and analytics strategy.
 
-**2021 – 2022**
+**Stack:** Nuxt, Express, Cypress, Tailwind, Nest, PostgreSQL, MeiliSearch, Strapi, RabbitMQ, GitLab, ClickUp
 
-- Full e-commerce rebuild: frontend, microservices, back office.
-- SEO, Analytics.
+#### OmiCure (2021)
+- Built "TrialFinder", a clinical trial search engine for cancer research. 
+- Scraped and enriched public datasets using NLP. 
+- Designed complex DB schema and optimized APIs.
 
-**Stack**: Nuxt, Express, Cypress, Tailwind, Nest, PostgreSQL, MeiliSearch, Strapi, RabbitMQ, GitLab, ClickUp
-
-#### **OmiCure**
-
-**2021**
-
-- Built “TrialFinder” for cancer clinical trials.
-- Scraped and enriched public datasets using NLP.
-- Complex DB schema, optimized APIs.
-
-**Stack**: FastAPI, Nuxt, GitLab, Grafana, ClickUp, PostgreSQL
-
-#### **PME Partner**
-
-**2019 – 2020**
-
-- Led full redesign including SEO, Google Suite integration, and CDD methodology.
-
-**Stack**: VueJS, Gridsome, Tailwind, WordPress, GraphQL, GitLab
+**Stack:** FastAPI, Nuxt, GitLab, Grafana, ClickUp, PostgreSQL
 
 ---
 
-### **OCUS, Paris — Growth Engineer**
+### OCUS, Paris — Growth Engineer
+*2019*
 
-**2019**
+- Rapidly shipped internal MVPs (legal simulator, prospecting dashboard, exhibition locator) in a product-driven environment. 
+- Bridged engineering and business needs through fast iteration and user feedback loops.
 
-- Delivered MVPs: legal simulator, prospecting dashboard, exhibition locator.
-
-**Stack**: React, Nuxt, Bootstrap, Express
-
----
-
-### **Hubstairs, Bordeaux — Software Engineer**
-
-**2018 – 2019**
-
-- Created 3D interior scenes for Unity/Blender integration.
-
-**Stack**: React, Express, Node, GitLab, 3D engines
+**Stack:** React, Nuxt, Bootstrap, Express
 
 ---
 
-### **IronHack, Paris & Berlin — Teacher Assistant**
+### Hubstairs, Bordeaux — Software Engineer
+*2018 – 2019*
 
-**2018**
+- Built 3D configuration interfaces for interior design scenes (Unity/Blender integration).
+- Collaborated within a multidisciplinary team (data science, 3D, engineering), developing strong cross-functional communication skills.
 
-- Supported students and organized extra workshops for those struggling.
-- Mentored many student projects.
-
-**Stack**: ReactJS, Express, Node, GitHub
-
----
-
-## EDUCATION
-
-- **Le Wagon, Bordeaux** – Data Analyst (2021)
-  Advanced skills in Python & SQL.
-
-- **IronHack, Paris** – Web Developer (2018)
-  VueJS stack. Became Teacher Assistant for 3 sessions.
-
-- **IFAG, Lyon** – Business Manager (2014)
-  Master’s degree in International Relations (English-taught).
+**Stack:** React, Express, Node, GitLab, 3D engines
 
 ---
 
-## VOLUNTEERING
+### IronHack, Paris & Berlin — Teacher Assistant
+*2018*
 
-### **Radio France**
+- Mentored bootcamp students over 6 months across Paris and Berlin. 
+- Provided personalized coaching, technical support, and project guidance.
+- Organized extra workshops for students struggling — developing empathy-driven teaching and feedback skills foundational to engineering management.
 
+**Stack:** ReactJS, Express, Node, GitHub
+
+---
+
+## Community & Thought Leadership
+
+- **Open-source contributor:** Contributions to Radio France and HuggingFace repositories. Financial sponsor of Coolify.
+- **Certified trainer:** QUALIOPI-certified Vue.js instructor at Zenika. Trained other trainers.
+- **Mentoring:** Ongoing mentoring of junior and mid-level developers throughout career — from IronHack students to consultants and team members.
+
+---
+
+## AI & LLM Integration
+
+- **AI-augmented engineering workflows:** Daily use of multiple AI coding agents (Claude Code, OpenCode, pi.dev) to accelerate development, code reviews, and technical exploration. Advocate for AI adoption within engineering teams with a pragmatic, tool-agnostic approach.
+- **Spec-driven development:** Using OpenSpec to structure AI-assisted development through formal proposals, specifications, and task breakdowns — ensuring alignment between product intent and implementation before any code is written.
+- **LLM deployment & infrastructure:** Hands-on experience deploying and serving open-source LLMs via vLLM on GPU cloud providers (Verda, Vast.ai). Understanding of model serving, inference optimization, and cost-effective infrastructure for AI-powered features.
+
+---
+
+## Volunteering
+
+### Radio France
 Migrated `svelte-youtube-lite` from Svelte 4 → 5, added Playwright tests.
 
-**Stack**: GitHub, Playwright, SvelteKit
+**Stack:** GitHub, Playwright, SvelteKit
 
-### **David Poupon**
+### David Poupon
+Created a pro-bono website with image optimization for a solo entrepreneur.
 
-Created a simple pro-bono site with image optimization.
+**Stack:** Vercel, SvelteKit, Vite
 
-**Stack**: Vercel, SvelteKit, Vite
-
-### **Solinum (via Zenika)**
-
+### Solinum (via Zenika)
 Implemented PostHog tracking, removed MongoDB, refactored tests.
 
-**Stack**: TypeScript, Express, Lerna, PostHog, Jest
-
-### **Les Petits Masques Solidaires**
-
-Created solidarity mask marketplace with mapping and forms.
-
-**Stack**: GitLab, NuxtJS, Strapi, Figma, SendGrid, Trello, Docker
-
-### **Surf Club Mérignac**
-
-Built a surf forecast + board-sharing app.
-
-**Stack**: GitLab, NuxtJS, Strapi, Figma, SendGrid, Trello, Digital Ocean
+**Stack:** TypeScript, Express, Lerna, PostHog, Jest
 
 ---
 
-## STARTUPS
+## Technical Skills
 
-### **MyBetFriend — Co-Founder**
+**Frontend:** React, Vue.js, Svelte/SvelteKit, Nuxt, TypeScript, Playwright, Nx monorepo
 
-**2016**
-Non-financial sports betting app with real-time Opta data.
+**Backend:** Node.js, NestJS, FastAPI (Python)
 
-### **Minute Papillote — Associate**
+**AI & LLM:** Claude Code, OpenCode, pi.dev, OpenSpec (spec-driven development), vLLM, Verda, Vast.ai
 
-**2014 – 2015**
-Lunch-ordering app; focused on distribution and feature development.
+**Practices:** RFC/ADR processes, TDD, mob programming, CI/CD, microfrontend architecture, performance optimization, accessibility
+
+**Management:** 1:1s, performance reviews, salary committees, hiring, OKR alignment, communities of practice, agile methodologies
+
+---
+
+## Education
+
+**Le Wagon, Bordeaux** — Data Analyst (2021)
+Advanced skills in Python & SQL, data visualization.
+
+**IronHack, Paris** — Web Developer (2018)
+Full-stack JavaScript. Teacher Assistant for 3 sessions.
+
+**IFAG, Lyon** — Business Manager (2014)
+Master's degree in International Relations (English-taught).
