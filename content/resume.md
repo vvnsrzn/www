@@ -1,3 +1,8 @@
+---
+title: "Resume"
+description: "My corporate resume"
+---
+
 ## Experience
 
 ### Hublo, Paris — Frontend Lead
