@@ -33,6 +33,6 @@ export default defineNuxtConfig({
   vite: { plugins: [tailwindcss()] },
   site: {
     trailingSlash: true,
-    url: "viviansarazin.com",
+    url: "www.viviansarazin.com",
   },
 });
