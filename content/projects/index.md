@@ -7,7 +7,7 @@ description: "My best projects made so far"
 
 [Les cahiers de Jeanine](/projects/les-cahiers-de-jeanine/) - my grandmother's recipes met an LLM
 
-[Radio France](/projects/radiofrance-svelte-youtube-lite/) - my first contribution on a Svelte project
+[Radio France](/projects/radiofrance/) - my first contribution on a Svelte project
 
 [David Poupon](/projects/david-poupon/) - my smallest website in a while
 

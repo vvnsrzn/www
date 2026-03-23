@@ -118,14 +118,6 @@ description: "My corporate resume"
 
 ---
 
-## Community & Thought Leadership
-
-- **Open-source contributor:** Contributions to Radio France and HuggingFace repositories. Financial sponsor of Coolify.
-- **Certified trainer:** QUALIOPI-certified Vue.js instructor at Zenika. Trained other trainers.
-- **Mentoring:** Ongoing mentoring of junior and mid-level developers throughout career — from IronHack students to consultants and team members.
-
----
-
 ## AI & LLM Integration
 
 - **AI-augmented engineering workflows:** Daily use of multiple AI coding agents (Claude Code, OpenCode, pi.dev) to accelerate development, code reviews, and technical exploration. Advocate for AI adoption within engineering teams with a pragmatic, tool-agnostic approach.
@@ -136,18 +128,29 @@ description: "My corporate resume"
 
 ## Volunteering
 
+### HuggingFace
+Contributed to `huggingface.js` and `transformers`.
+
+**Stack:** GitHub, SvelteKit
+
 ### Radio France
-Migrated `svelte-youtube-lite` from Svelte 4 → 5, added Playwright tests.
+Contributed to `svelte-youtube-lite` and `svelte-leaflet`.
+
+[Project](/projects/radiofrance)
 
 **Stack:** GitHub, Playwright, SvelteKit
 
 ### David Poupon
 Created a pro-bono website with image optimization for a solo entrepreneur.
 
+[Project](/projects/david-poupon)
+
 **Stack:** Vercel, SvelteKit, Vite
 
 ### Solinum (via Zenika)
 Implemented PostHog tracking, removed MongoDB, refactored tests.
+
+[Project](/projects/solinum)
 
 **Stack:** TypeScript, Express, Lerna, PostHog, Jest
 
@@ -155,9 +158,9 @@ Implemented PostHog tracking, removed MongoDB, refactored tests.
 
 ## Technical Skills
 
-**Frontend:** React, Vue.js, Svelte/SvelteKit, Nuxt, TypeScript, Playwright, Nx monorepo
+**Frontend:** React, Vue.js, Svelte/SvelteKit, Nuxt, TypeScript, Playwright, Nx, Vite, Module Federation
 
-**Backend:** Node.js, NestJS, FastAPI (Python)
+**Backend:** Node.js, NestJS, FastAPI, Rust (learning)
 
 **AI & LLM:** Claude Code, OpenCode, pi.dev, OpenSpec (spec-driven development), vLLM, Verda, Vast.ai
 

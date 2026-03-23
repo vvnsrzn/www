@@ -1,6 +1,6 @@
 ---
-title: "Radiofrance svelte-youtube-lite"
-description: "My very first open source contriubtion on Svelte"
+title: "Radiofrance"
+description: "My very first open source contriubtions on Svelte"
 stack: ["SvelteKit", "Playwright"]
 ---
 
@@ -47,3 +47,28 @@ This contribution was a lot of fun, especially because the Radiofrance maintaine
 ![radio-france.webp](/projects/radiofrance.webp){style="border-radius:0px"}
 
 Seeing the project reach version 1.0.0 after my PR was far beyond what I expected!
+
+# Radiofrance svelte-leaflet
+
+After my contribution on svelte-youtube-lite, I wanted to keep contributing to Radiofrance's open-source projects.
+
+I found [svelte-leaflet](https://github.com/radiofrance/svelte-leaflet), a library that wraps Leaflet classes in domless/renderless Svelte components.
+
+A Svelte 5 migration was already underway on the project, and I noticed the maintainer could use a hand. So I jumped in!
+
+## What I did
+
+In this [PR](https://github.com/radiofrance/svelte-leaflet/pull/8), I worked on:
+
+- **Adding demo specs** to ensure nothing would break during the migration
+- **Refactoring the routes folder** by adding aliases to simplify the structure
+- **Creating a docs subfolder** with all the routes properly organized
+
+## A collaborative effort
+
+What I enjoyed about this contribution was the collaborative aspect. I reached out to the maintainer, [romaindurand](https://github.com/romaindurand), offering help on the Svelte 5 branch he had been working on. The PR was merged into the `svelte5` branch, bringing the project closer to its 1.0.0 release.
+
+---
+
+Contributing to two Radiofrance projects was a great way to deepen my Svelte knowledge while helping the open-source community. Seeing these projects evolve toward Svelte 5 compatibility felt really rewarding!
+
