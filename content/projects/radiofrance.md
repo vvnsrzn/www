@@ -71,4 +71,3 @@ What I enjoyed about this contribution was the collaborative aspect. I reached o
 ---
 
 Contributing to two Radiofrance projects was a great way to deepen my Svelte knowledge while helping the open-source community. Seeing these projects evolve toward Svelte 5 compatibility felt really rewarding!
-

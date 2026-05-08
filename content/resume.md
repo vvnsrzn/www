@@ -6,7 +6,8 @@ description: "My corporate resume"
 ## Experience
 
 ### InVivo Digital Factory, Paris — Tech Lead
-*2026 – Present*
+
+_2026 – Present_
 
 - **Team leadership:** Leading a team of 3 engineers building and maintaining the e-commerce platform.
 - **Scope:** Ownership across CMS, design system, AI chat, end-to-end testing, and core application code.
@@ -18,7 +19,8 @@ description: "My corporate resume"
 ---
 
 ### Hublo, Paris — Frontend Lead
-*2024 – 2026*
+
+_2024 – 2026_
 
 - **People & community leadership:** Leading and animating a frontend community of 10 engineers — facilitating knowledge sharing, aligning practices, and fostering a culture of continuous improvement.
 - **Technical governance:** Introduced RFC-based decision-making processes, resulting in ADRs that standardized the frontend stack across the organization (framework selection, testing strategy, accessibility, performance).
@@ -32,19 +34,23 @@ description: "My corporate resume"
 ---
 
 ### Zenika, Brest — Consultant, Manager & Trainer
-*2023 – 2024*
+
+_2023 – 2024_
 
 #### Manager
+
 - Managed a team of consultants with regular 1:1s, annual performance reviews, and active participation in salary review committees. Supported career growth through personalized development plans.
 - Participated in recruiting processes — screening, technical interviews, and hiring decisions.
 - Contributed to agency-level management and strategic discussions.
 
 #### Trainer
-- Designed and delivered QUALIOPI-certified Vue.js training programs. 
+
+- Designed and delivered QUALIOPI-certified Vue.js training programs.
 - Rewrote key chapters (Reusability, Testing, Performance).
 - Trained other trainers — scaling knowledge transfer across the organization.
 
 #### Consultant — Arkéa (Socle Frontend)
+
 - Contributed to internal frontend libraries (auth, testing, linting, scaffolding) supporting ~300 internal applications.
 - Promoted mob-programming and conventional comments as engineering best practices.
 - Facilitated the frontend community of practice and supported teams on performance and delivery.
@@ -53,6 +59,7 @@ description: "My corporate resume"
 **Stack:** VueJS, NodeJS, Cypress, Verdaccio, Artifactory, Storybook, Sonar, GitLab
 
 #### Consultant — InVivo
+
 - Worked on e-commerce platforms (Aladin, Farmi).
 - Refactored a flawed clean architecture, leveraging VueJS contexts/stores.
 - Led migration from Options API to Composition API and contributed to e2e testing strategy.
@@ -62,7 +69,8 @@ description: "My corporate resume"
 ---
 
 ### Fabriq, Paris — Software Engineer
-*2023*
+
+_2023_
 
 - Developed features across mobile and web SaaS applications. Focused on performance optimization (Core Web Vitals), widget-heavy dashboards, data visualization, and offline capabilities.
 - Built and maintained REST APIs.
@@ -73,26 +81,30 @@ description: "My corporate resume"
 ---
 
 ### Freelance — Tech Lead
-*2019 – 2023*
+
+_2019 – 2023_
 
 - **Team leadership:** Led cross-functional teams of up to 10 people (frontend, backend, infrastructure, SEO, design) across 4 concurrent projects, coordinating delivery and mentoring developers (~4 engineers per project).
 - **Product collaboration:** Worked closely with Product Owners and stakeholders to define priorities, scope features, and align technical decisions with business goals.
 
 #### (NDA) — Bank (2022 – 2023)
+
 - Created internal directory platform with strict security compliance.
 - Handled frontend, backend, CI/CD, testing, accessibility (WCAG 2.1).
 
 **Stack:** Nuxt, FastAPI, Cypress, Tailwind, PostgreSQL, MeiliSearch, GitLab, ClickUp, Azure
 
 #### Groupe Nomblot (2021 – 2022)
-- Full e-commerce rebuild: frontend, microservices architecture, back office. 
+
+- Full e-commerce rebuild: frontend, microservices architecture, back office.
 - Led architecture decisions, team delivery, SEO and analytics strategy.
 
 **Stack:** Nuxt, Express, Cypress, Tailwind, Nest, PostgreSQL, MeiliSearch, Strapi, RabbitMQ, GitLab, ClickUp
 
 #### OmiCure (2021)
-- Built "TrialFinder", a clinical trial search engine for cancer research. 
-- Scraped and enriched public datasets using NLP. 
+
+- Built "TrialFinder", a clinical trial search engine for cancer research.
+- Scraped and enriched public datasets using NLP.
 - Designed complex DB schema and optimized APIs.
 
 **Stack:** FastAPI, Nuxt, GitLab, Grafana, ClickUp, PostgreSQL
@@ -100,9 +112,10 @@ description: "My corporate resume"
 ---
 
 ### OCUS, Paris — Growth Engineer
-*2019*
 
-- Rapidly shipped internal MVPs (legal simulator, prospecting dashboard, exhibition locator) in a product-driven environment. 
+_2019_
+
+- Rapidly shipped internal MVPs (legal simulator, prospecting dashboard, exhibition locator) in a product-driven environment.
 - Bridged engineering and business needs through fast iteration and user feedback loops.
 
 **Stack:** React, Nuxt, Bootstrap, Express
@@ -110,7 +123,8 @@ description: "My corporate resume"
 ---
 
 ### Hubstairs, Bordeaux — Software Engineer
-*2018 – 2019*
+
+_2018 – 2019_
 
 - Built 3D configuration interfaces for interior design scenes (Unity/Blender integration).
 - Collaborated within a multidisciplinary team (data science, 3D, engineering), developing strong cross-functional communication skills.
@@ -120,9 +134,10 @@ description: "My corporate resume"
 ---
 
 ### IronHack, Paris & Berlin — Teacher Assistant
-*2018*
 
-- Mentored bootcamp students over 6 months across Paris and Berlin. 
+_2018_
+
+- Mentored bootcamp students over 6 months across Paris and Berlin.
 - Provided personalized coaching, technical support, and project guidance.
 - Organized extra workshops for students struggling — developing empathy-driven teaching and feedback skills foundational to engineering management.
 
@@ -141,11 +156,13 @@ description: "My corporate resume"
 ## Volunteering
 
 ### HuggingFace
+
 Contributed to `huggingface.js` and `transformers`.
 
 **Stack:** GitHub, SvelteKit
 
 ### Radio France
+
 Contributed to `svelte-youtube-lite` and `svelte-leaflet`.
 
 [Project](/projects/radiofrance)
@@ -153,6 +170,7 @@ Contributed to `svelte-youtube-lite` and `svelte-leaflet`.
 **Stack:** GitHub, Playwright, SvelteKit
 
 ### David Poupon
+
 Created a pro-bono website with image optimization for a solo entrepreneur.
 
 [Project](/projects/david-poupon)
@@ -160,6 +178,7 @@ Created a pro-bono website with image optimization for a solo entrepreneur.
 **Stack:** Vercel, SvelteKit, Vite
 
 ### Solinum (via Zenika)
+
 Implemented PostHog tracking, removed MongoDB, refactored tests.
 
 [Project](/projects/solinum)

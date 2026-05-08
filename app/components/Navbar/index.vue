@@ -1,12 +1,12 @@
 <script setup lang="ts">
 const { data: navigation } = await useAsyncData("navigation", () =>
-  queryCollectionNavigation("content")
+  queryCollectionNavigation("content"),
 );
 
 const isOpen = ref(false);
 
 const links = computed(() =>
-  navigation.value?.filter((link) => link.path !== "/")
+  navigation.value?.filter((link) => link.path !== "/"),
 );
 </script>
 

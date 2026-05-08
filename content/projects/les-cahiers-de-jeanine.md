@@ -143,7 +143,7 @@ async function main() {
 
         await promises.writeFile(
           path.join(CONTENT_DIR, `${recipeSlug}.json`),
-          json.choices[0].message.content
+          json.choices[0].message.content,
         );
       }
     }
@@ -162,36 +162,35 @@ async function main() {
 I chose [Nuxt](https://nuxt.com/) for the website because it provides the speed and developer experience I wanted without overcomplicating things. With the recipes stored as JSON files, [Nuxt Content](https://content.nuxt.com/) exposes a lightweight API for the front end to query and display the data.
 
 ```typescript
-  const {
-    q = "",
-    limit,
-    skip,
-    selectedCategories = "",
-    selectedCuisines = "",
-  } = body.data;
+const {
+  q = "",
+  limit,
+  skip,
+  selectedCategories = "",
+  selectedCuisines = "",
+} = body.data;
 
-  const recettesSearchQuery = queryCollection(event, "recettes").andWhere(
-    (query) =>
-      query
-        .where("title", "LIKE", `%${q}%`)
-        .where("description", "LIKE", `%${q}%`)
-        .where("recipeCategory", "LIKE", `%${selectedCategories}%`)
-        .where("recipeCuisine", "LIKE", `%${selectedCuisines}%`)
-  );
+const recettesSearchQuery = queryCollection(event, "recettes").andWhere(
+  (query) =>
+    query
+      .where("title", "LIKE", `%${q}%`)
+      .where("description", "LIKE", `%${q}%`)
+      .where("recipeCategory", "LIKE", `%${selectedCategories}%`)
+      .where("recipeCuisine", "LIKE", `%${selectedCuisines}%`),
+);
 
-  const recettesQuery = queryCollection(event, "recettes");
+const recettesQuery = queryCollection(event, "recettes");
 
-  const [total, allRecipes, availableRecipes] = await Promise.all([
-    recettesSearchQuery.count(),
-    recettesQuery.select("recipeCategory", "recipeCuisine").all(),
-    recettesSearchQuery
-      .limit(limit)
-      .skip(skip)
-      .select("title", "description", "recipeCategory", "recipeCuisine", "slug")
-      .all(),
-  ]);
+const [total, allRecipes, availableRecipes] = await Promise.all([
+  recettesSearchQuery.count(),
+  recettesQuery.select("recipeCategory", "recipeCuisine").all(),
+  recettesSearchQuery
+    .limit(limit)
+    .skip(skip)
+    .select("title", "description", "recipeCategory", "recipeCuisine", "slug")
+    .all(),
+]);
 ```
-
 
 You can explore the result at [lescahiersdejeanine.fr](https://www.lescahiersdejeanine.fr/).
 
