@@ -3,6 +3,8 @@ title: "Resume"
 description: "My corporate resume"
 ---
 
+# Resume
+
 ## Experience
 
 ### InVivo Digital Factory, Paris — Tech Lead

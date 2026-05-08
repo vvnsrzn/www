@@ -5,7 +5,7 @@ const appConfig = useAppConfig();
 <template>
   <a
     v-if="appConfig.socials?.github"
-    class="dark:text-gray-100 hover:text-gray-700 dark:hover:text-gray-300"
+    class="nb-icon-button"
     :href="`https://github.com/${appConfig.socials?.github}`"
     title="GitHub"
   >
@@ -13,7 +13,7 @@ const appConfig = useAppConfig();
   </a>
   <a
     v-if="appConfig.socials?.bluesky"
-    class="dark:text-gray-100 hover:text-gray-700 dark:hover:text-gray-300"
+    class="nb-icon-button"
     :href="`https://bsky.app/profile/${appConfig.socials?.bluesky}`"
     title="Bluesky"
   >

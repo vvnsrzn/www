@@ -9,25 +9,29 @@ const isOpen = defineModel<boolean>("isOpen", { required: true });
 </script>
 
 <template>
-  <div class="flex justify-between items-center">
+  <div class="flex justify-between items-center gap-4">
     <!-- Logo/Name -->
-    <div class="text-gray-700 dark:text-gray-200 font-bold">
-      <NuxtLink to="/"> Vivian SARAZIN </NuxtLink>
+    <div class="font-display text-lg tracking-tight">
+      <NuxtLink to="/" class="no-underline! hover:bg-nb-accent-lime px-1">
+        VIVIAN SARAZIN
+      </NuxtLink>
     </div>
+
     <!-- Desktop Navigation -->
-    <nav class="hidden md:flex text-gray-700 dark:text-gray-200">
+    <nav class="hidden md:flex items-center gap-2 font-bold">
       <NuxtLink
         v-for="link in links"
         :to="link.path + '/'"
         :key="link.path"
-        active-class="font-bold"
-        class="mr-6"
-        >{{ link.title }}</NuxtLink
+        active-class="nb-link-active"
+        class="px-2 py-0.5 hover:bg-nb-accent-lime no-underline! transition-colors"
       >
+        {{ link.title }}
+      </NuxtLink>
     </nav>
 
     <!-- Desktop Social icons & Color Mode -->
-    <div class="hidden md:flex text-gray-500 space-x-3 transition">
+    <div class="hidden md:flex items-center gap-2">
       <NavbarSocialLinks />
       <NavbarColorModeSwitch />
     </div>
@@ -42,7 +46,7 @@ const isOpen = defineModel<boolean>("isOpen", { required: true });
         :name="
           isOpen ? 'i-heroicons-x-mark-20-solid' : 'i-heroicons-bars-3-20-solid'
         "
-        class="size-6"
+        class="size-5"
       />
     </button>
   </div>
