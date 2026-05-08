@@ -12,10 +12,12 @@ description: "AI tools I use and ideas I'm exploring."
 - Claude Code
 - OpenCode
 - Pi
+- Hermes Agent — extensible, multi-model agent with skills, cron, and subagent orchestration
 
 ### Orchestration & workflow
 
 - Conductor — running many coding agents in parallel
+- Hermes Agent — built-in cron scheduler and subagent delegation
 - OpenSpec — spec-driven development
 
 ### Local LLMs
