@@ -1,12 +1,7 @@
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
-  modules: [
-    "@nuxt/content",
-    "@nuxt/icon",
-    "@nuxtjs/color-mode",
-    "@nuxtjs/seo",
-  ],
+  modules: ["@nuxt/content", "@nuxt/icon", "@nuxtjs/color-mode", "@nuxtjs/seo"],
 
   css: ["assets/css/main.css"],
   colorMode: { classSuffix: "" },

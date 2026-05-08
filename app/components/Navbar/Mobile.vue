@@ -11,23 +11,24 @@ const isOpen = defineModel<boolean>("isOpen", { required: true });
 <template>
   <div
     v-if="isOpen"
-    class="md:hidden mt-4 py-4 border-t border-gray-200 dark:border-gray-700"
+    class="md:hidden pt-4 border-t-2 border-black dark:border-white"
   >
     <!-- Mobile Navigation Links -->
-    <nav class="flex flex-col space-y-3 text-gray-700 dark:text-gray-200 mb-4">
+    <nav class="flex flex-col gap-2 mb-4 font-bold">
       <NuxtLink
         v-for="link in links"
         :key="link.path"
         :to="link.path + '/'"
-        active-class="font-bold"
-        class="hover:text-gray-900 dark:hover:text-white"
+        active-class="nb-link-active"
+        class="px-2 py-1 no-underline! self-start"
         @click="isOpen = false"
-        >{{ link.title }}</NuxtLink
       >
+        {{ link.title }}
+      </NuxtLink>
     </nav>
 
     <!-- Mobile Social icons & Color Mode -->
-    <div class="flex text-gray-500 space-x-3 transition">
+    <div class="flex items-center gap-2">
       <NavbarSocialLinks />
       <NavbarColorModeSwitch />
     </div>
