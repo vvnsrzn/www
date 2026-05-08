@@ -6,7 +6,11 @@ const onClick = () =>
     : (colorMode.preference = "light");
 </script>
 <template>
-  <button aria-label="Color Mode" class="inline-block w-5 dark:text-gray-100 hover:text-gray-700 dark:hover:text-gray-300" @click="onClick">
+  <button
+    aria-label="Color Mode"
+    class="inline-block w-5 dark:text-gray-100 hover:text-gray-700 dark:hover:text-gray-300"
+    @click="onClick"
+  >
     <ColorScheme placeholder="...">
       <template v-if="colorMode.value === 'dark'">
         <Icon name="dark-mode" class="w-5 h-5" />
