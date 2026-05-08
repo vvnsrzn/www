@@ -12,7 +12,6 @@ description: "AI tools I use and ideas I'm exploring."
 - Claude Code
 - OpenCode
 - Pi
-- Hermes Agent — extensible, multi-model agent with skills, cron, and subagent orchestration
 
 ### Orchestration & workflow
 
