@@ -4,6 +4,7 @@ export default defineConfig({
   webServer: {
     command: "pnpm run build && pnpm run preview",
     url: "http://localhost:3000",
+    reuseExistingServer: !process.env.CI,
   },
   timeout: 60 * 1000,
   use: {
