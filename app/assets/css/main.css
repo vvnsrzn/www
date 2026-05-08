@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:ital,wght@0,400;0,500;0,700;0,900;1,400&family=JetBrains+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=DM+Sans:ital,wght@0,400;0,500;0,700;0,900;1,400&family=JetBrains+Mono:wght@400;700&display=swap");
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 @custom-variant dark (&:where(.dark, .dark *));
@@ -7,14 +7,14 @@
 
 @theme {
   --color-nb-bg: #ffdc58;
-  --color-nb-bg-dark: #272933;
+  --color-nb-bg-dark: #0f172a;
   --color-nb-card: #ffffff;
-  --color-nb-card-dark: #373a47;
+  --color-nb-card-dark: #293548;
   --color-nb-accent: #88aaee;
   --color-nb-accent-pink: #ff7a93;
   --color-nb-accent-lime: #a3e635;
   --color-nb-accent-orange: #ffa05c;
-  --font-display: "Archivo Black", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Darker Grotesque", ui-sans-serif, system-ui, sans-serif;
   --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
 }
