@@ -5,8 +5,20 @@ description: "My corporate resume"
 
 ## Experience
 
+### InVivo Digital Factory, Paris — Tech Lead
+*2026 – Present*
+
+- **Team leadership:** Leading a team of 3 engineers building and maintaining the e-commerce platform.
+- **Scope:** Ownership across CMS, design system, AI chat, end-to-end testing, and core application code.
+- **Engineering practices:** Driving [mob programming](/misc) as the team's default mode of working to spread knowledge and raise code quality.
+- **Spec-driven development:** Using OpenSpec to formalize proposals and specifications before implementation, aligning product intent with delivery.
+
+**Stack:** Nuxt, Vue, Hapi.js, PostgreSQL, Kubernetes
+
+---
+
 ### Hublo, Paris — Frontend Lead
-*2024 – Present*
+*2024 – 2026*
 
 - **People & community leadership:** Leading and animating a frontend community of 10 engineers — facilitating knowledge sharing, aligning practices, and fostering a culture of continuous improvement.
 - **Technical governance:** Introduced RFC-based decision-making processes, resulting in ADRs that standardized the frontend stack across the organization (framework selection, testing strategy, accessibility, performance).
