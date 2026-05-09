@@ -44,7 +44,10 @@ test("color mode toggle flips the active mode label", async ({ page }) => {
   await expect(
     page.getByRole("button", { name: "Switch to light mode" }).first(),
   ).toContainText("Dark Mode");
-  await toggle.click();
+  await page
+    .getByRole("button", { name: "Switch to light mode" })
+    .first()
+    .click();
   await expect(
     page.getByRole("button", { name: "Switch to dark mode" }).first(),
   ).toContainText("Light Mode");
