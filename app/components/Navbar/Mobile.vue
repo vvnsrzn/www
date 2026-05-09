@@ -17,7 +17,10 @@ const isOpen = defineModel<boolean>("isOpen", { required: true });
     class="md:hidden pt-4 border-t-2 border-black dark:border-white"
   >
     <!-- Mobile Navigation Links -->
-    <nav aria-label="Mobile navigation" class="flex flex-col gap-2 mb-4 font-bold">
+    <nav
+      aria-label="Mobile navigation"
+      class="flex flex-col gap-2 mb-4 font-bold"
+    >
       <NuxtLink
         v-for="link in links"
         :key="link.path"

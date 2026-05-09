@@ -8,7 +8,11 @@ const onClick = () =>
 
 <template>
   <button
-    :aria-label="colorMode.value === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'"
+    :aria-label="
+      colorMode.value === 'dark'
+        ? 'Switch to light mode'
+        : 'Switch to dark mode'
+    "
     class="nb-icon-button"
     @click="onClick"
   >

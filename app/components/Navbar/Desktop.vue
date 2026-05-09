@@ -18,7 +18,10 @@ const isOpen = defineModel<boolean>("isOpen", { required: true });
     </div>
 
     <!-- Desktop Navigation -->
-    <nav aria-label="Main navigation" class="hidden md:flex items-center gap-2 font-bold">
+    <nav
+      aria-label="Main navigation"
+      class="hidden md:flex items-center gap-2 font-bold"
+    >
       <NuxtLink
         v-for="link in links"
         :to="link.path + '/'"
