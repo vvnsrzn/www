@@ -28,8 +28,8 @@ test("homepage exposes social links to GitHub and Bluesky", async ({
   page,
 }) => {
   await page.goto("/");
-  const github = page.getByLabel("GitHub profile").first();
-  const bluesky = page.getByLabel("Bluesky profile").first();
+  const github = page.getByRole("link", { name: "GitHub profile" });
+  const bluesky = page.getByRole("link", { name: "Bluesky profile" });
   await expect(github).toHaveAttribute("href", /github\.com\//);
   await expect(bluesky).toHaveAttribute("href", /bsky\.app\/profile\//);
 });
