@@ -7,7 +7,8 @@ const appConfig = useAppConfig();
     v-if="appConfig.socials?.github"
     class="nb-icon-button"
     :href="`https://github.com/${appConfig.socials?.github}`"
-    title="GitHub"
+    aria-label="GitHub profile"
+    rel="noopener noreferrer"
   >
     <Icon class="size-5" name="i-simple-icons-github" />
   </a>
@@ -15,7 +16,8 @@ const appConfig = useAppConfig();
     v-if="appConfig.socials?.bluesky"
     class="nb-icon-button"
     :href="`https://bsky.app/profile/${appConfig.socials?.bluesky}`"
-    title="Bluesky"
+    aria-label="Bluesky profile"
+    rel="noopener noreferrer"
   >
     <Icon class="size-5" name="i-simple-icons-bluesky" />
   </a>

@@ -325,3 +325,37 @@ body {
   border-bottom-color: #fff;
   color: #000;
 }
+
+/* ---------- Accessibility: focus indicators ---------- */
+/* Use :focus-visible so mouse clicks don't show outlines */
+*:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
+
+.dark *:focus-visible {
+  outline-color: #fff;
+}
+
+/* Refine for specific interactive elements to match neobrutalist style */
+.nb-button:focus-visible,
+.nb-icon-button:focus-visible {
+  outline: 3px solid #000;
+  outline-offset: 2px;
+}
+.dark .nb-button:focus-visible,
+.dark .nb-icon-button:focus-visible {
+  outline-color: #fff;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

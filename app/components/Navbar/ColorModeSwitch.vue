@@ -7,7 +7,15 @@ const onClick = () =>
 </script>
 
 <template>
-  <button aria-label="Color Mode" class="nb-icon-button" @click="onClick">
+  <button
+    :aria-label="
+      colorMode.value === 'dark'
+        ? 'Switch to light mode'
+        : 'Switch to dark mode'
+    "
+    class="nb-icon-button"
+    @click="onClick"
+  >
     <ColorScheme placeholder="...">
       <template v-if="colorMode.value === 'dark'">
         <Icon name="dark-mode" class="size-5" />
