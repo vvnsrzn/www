@@ -18,7 +18,7 @@ const isOpen = defineModel<boolean>("isOpen", { required: true });
     </div>
 
     <!-- Desktop Navigation -->
-    <nav class="hidden md:flex items-center gap-2 font-bold">
+    <nav aria-label="Main navigation" class="hidden md:flex items-center gap-2 font-bold">
       <NuxtLink
         v-for="link in links"
         :to="link.path + '/'"
@@ -39,8 +39,10 @@ const isOpen = defineModel<boolean>("isOpen", { required: true });
     <!-- Mobile Hamburger Button -->
     <button
       @click="isOpen = !isOpen"
-      class="md:hidden text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white focus:outline-none"
-      aria-label="Toggle navigation"
+      class="md:hidden text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black dark:focus-visible:outline-white"
+      :aria-expanded="isOpen"
+      aria-controls="mobile-menu"
+      :aria-label="isOpen ? 'Close navigation menu' : 'Open navigation menu'"
     >
       <Icon
         :name="
