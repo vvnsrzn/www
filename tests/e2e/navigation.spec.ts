@@ -28,18 +28,24 @@ test("homepage exposes social links to GitHub and Bluesky", async ({
   page,
 }) => {
   await page.goto("/");
-  const github = page.getByTitle("GitHub").first();
-  const bluesky = page.getByTitle("Bluesky").first();
+  const github = page.getByLabel("GitHub profile").first();
+  const bluesky = page.getByLabel("Bluesky profile").first();
   await expect(github).toHaveAttribute("href", /github\.com\//);
   await expect(bluesky).toHaveAttribute("href", /bsky\.app\/profile\//);
 });
 
 test("color mode toggle flips the active mode label", async ({ page }) => {
   await page.goto("/");
-  const toggle = page.getByRole("button", { name: "Color Mode" }).first();
+  const toggle = page
+    .getByRole("button", { name: "Switch to dark mode" })
+    .first();
   await expect(toggle).toContainText("Light Mode");
   await toggle.click();
-  await expect(toggle).toContainText("Dark Mode");
+  await expect(
+    page.getByRole("button", { name: "Switch to light mode" }).first(),
+  ).toContainText("Dark Mode");
   await toggle.click();
-  await expect(toggle).toContainText("Light Mode");
+  await expect(
+    page.getByRole("button", { name: "Switch to dark mode" }).first(),
+  ).toContainText("Light Mode");
 });
