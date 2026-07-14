@@ -15,8 +15,8 @@ importers:
         specifier: ^1.2.30
         version: 1.2.57
       '@nuxt/content':
-        specifier: ^3.4.0
-        version: 3.8.0(better-sqlite3@12.4.1)(magicast@0.5.1)
+        specifier: ~3.8.2
+        version: 3.8.2(better-sqlite3@12.4.1)(magicast@0.5.1)
       '@nuxt/icon':
         specifier: ^1.11.0
         version: 1.15.0(magicast@0.5.1)(vite@7.3.1(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue@3.5.24(typescript@5.9.3))
@@ -478,8 +478,8 @@ packages:
     engines: {node: ^16.10.0 || >=18.0.0}
     hasBin: true
 
-  '@nuxt/content@3.8.0':
-    resolution: {integrity: sha512-uW8aqo9bcWwBk43f+EkfcHRrkydRAqrVzpogRSCaoistJ9ND5T0Uul5oKEFfzeByKGlSrX4Qb2zbReSoN3rp4A==}
+  '@nuxt/content@3.8.2':
+    resolution: {integrity: sha512-bqqS2bTpkmLJDCCU3GuApBQBa6BlHuT7OW9GGoTEZ14evilwjlKSLlFNRYKIyS3Ua4L+GXz7Its7pLbXe+nW5w==}
     peerDependencies:
       '@electric-sql/pglite': '*'
       '@libsql/client': '*'
@@ -572,8 +572,8 @@ packages:
   '@nuxtjs/color-mode@3.5.2':
     resolution: {integrity: sha512-cC6RfgZh3guHBMLLjrBB2Uti5eUoGM9KyauOaYS9ETmxNWBMTvpgjvSiSJp1OFljIXPIqVTJ3xtJpSNZiO3ZaA==}
 
-  '@nuxtjs/mdc@0.18.2':
-    resolution: {integrity: sha512-pdeWd2/oOPriPVa1F6QNoK4fZCp/b4sxEVoouXJJCETCBIFSNS4OOtdRTY1ATLM1Gr+6ZvNyNPABvaaUEGC4Lw==}
+  '@nuxtjs/mdc@0.18.4':
+    resolution: {integrity: sha512-lM4R0Mbbhw5h5Fwj7LqGiw6eanqjjPkzi+9FaXfn1BdmfbW8GlR2quLIiBXTbw0wUrWYyOWoc5FGIE/gpZUTjQ==}
 
   '@nuxtjs/robots@5.5.6':
     resolution: {integrity: sha512-PFp0sSaQs2ceEubvkiUPrWQ0GYTTu5bDH0lGVmJlm0h/Dqmt/e9TziXNKahL8HUV3VG22YzRyuyjd7p8+BaNgw==}
@@ -1950,6 +1950,7 @@ packages:
 
   '@ungap/structured-clone@1.3.0':
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
+    deprecated: Potential CWE-502 - Update to 1.3.1 or higher
 
   '@unhead/addons@2.0.19':
     resolution: {integrity: sha512-GkyyScEvar+8LTJqQPJ0QBZC1b7Frj8zMu+SJmyd5WuD6Wv9byhM+hLGfDNQpQ9G9HfT7ZnBKZs88e5BMnovuw==}
@@ -3634,8 +3635,8 @@ packages:
   mocked-exports@0.1.1:
     resolution: {integrity: sha512-aF7yRQr/Q0O2/4pIXm6PZ5G+jAd7QS4Yu8m+WEeEHGnbo+7mE36CbLSDQiXYV8bVL3NfmdeqPJct0tUlnjVSnA==}
 
-  modern-tar@0.6.1:
-    resolution: {integrity: sha512-PS5kTfMLBrIP7X7dj3x+N17T1Fc2InnFJAe/pGleM0hT9GhDFkltsLYxB1eQisg55bjnvgLsbTRFYp47AUhcbg==}
+  modern-tar@0.7.6:
+    resolution: {integrity: sha512-sweCIVXzx1aIGTCdzcMlSZt1h8k5Tmk08VNAuRk3IU28XamGiOH5ypi11g6De2CH7PhYqSSnGy2A/EFhbWnVKg==}
     engines: {node: '>=18.0.0'}
 
   mrmime@2.0.1:
@@ -3734,9 +3735,8 @@ packages:
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
 
-  nuxt-component-meta@https://pkg.pr.new/nuxt-component-meta@e3eb2c4:
-    resolution: {tarball: https://pkg.pr.new/nuxt-component-meta@e3eb2c4}
-    version: 0.14.0
+  nuxt-component-meta@0.14.2:
+    resolution: {integrity: sha512-pxEnARUzRmq3zbOm8fJkWLPR8mL82NeP5Pu/iYff4otl6jPJwgC1Cbpz3Z77HlVeYVtzhSpQRsCSo/+296CwYw==}
     hasBin: true
 
   nuxt-link-checker@4.3.6:
@@ -4896,9 +4896,6 @@ packages:
   unwasm@0.3.11:
     resolution: {integrity: sha512-Vhp5gb1tusSQw5of/g3Q697srYgMXvwMgXMjcG4ZNga02fDX9coxJ9fAb0Ci38hM2Hv/U1FXRPGgjP2BYqhNoQ==}
 
-  unwasm@0.4.2:
-    resolution: {integrity: sha512-/DWXXXn63zAbdoQ6jtdbhr1WP2Cz6ax2nwIu4/yqj4617VWmva4UAzNH16q2fD4I6fym4tSAXFT8P89weXn2AA==}
-
   unwasm@0.5.3:
     resolution: {integrity: sha512-keBgTSfp3r6+s9ZcSma+0chwxQdmLbB5+dAD9vjtB21UTMYuKAxHXCU1K2CbCtnP09EaWeRvACnXk0EJtUx+hw==}
 
@@ -5150,11 +5147,6 @@ packages:
   yallist@5.0.0:
     resolution: {integrity: sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==}
     engines: {node: '>=18'}
-
-  yaml@2.8.1:
-    resolution: {integrity: sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw==}
-    engines: {node: '>= 14.6'}
-    hasBin: true
 
   yaml@2.8.2:
     resolution: {integrity: sha512-mplynKqc1C2hTVYxd0PU2xQAc22TI1vShAYGksCCfxbn/dFwnHTNi1bvYsBTkhdUNtGIf5xNOg938rrSSYvS9A==}
@@ -5661,15 +5653,15 @@ snapshots:
       - magicast
       - supports-color
 
-  '@nuxt/content@3.8.0(better-sqlite3@12.4.1)(magicast@0.5.1)':
+  '@nuxt/content@3.8.2(better-sqlite3@12.4.1)(magicast@0.5.1)':
     dependencies:
-      '@nuxt/kit': 4.2.1(magicast@0.5.1)
-      '@nuxtjs/mdc': 0.18.2(magicast@0.5.1)
+      '@nuxt/kit': 4.3.0(magicast@0.5.1)
+      '@nuxtjs/mdc': 0.18.4(magicast@0.5.1)
       '@shikijs/langs': 3.15.0
       '@sqlite.org/sqlite-wasm': 3.50.4-build1
       '@standard-schema/spec': 1.0.0
       '@webcontainer/env': 1.1.1
-      c12: 3.3.1(magicast@0.5.1)
+      c12: 3.3.3(magicast@0.5.1)
       chokidar: 4.0.3
       consola: 3.4.2
       db0: 0.3.4(better-sqlite3@12.4.1)
@@ -5679,7 +5671,7 @@ snapshots:
       hookable: 5.5.3
       jiti: 2.6.1
       json-schema-to-typescript: 15.0.4
-      knitwork: 1.2.0
+      knitwork: 1.3.0
       mdast-util-to-hast: 13.2.0
       mdast-util-to-string: 4.0.0
       micromark: 4.0.2
@@ -5690,8 +5682,8 @@ snapshots:
       micromatch: 4.0.8
       minimark: 0.2.0
       minimatch: 10.1.1
-      modern-tar: 0.6.1
-      nuxt-component-meta: https://pkg.pr.new/nuxt-component-meta@e3eb2c4(magicast@0.5.1)
+      modern-tar: 0.7.6
+      nuxt-component-meta: 0.14.2(magicast@0.5.1)
       nypm: 0.6.2
       ohash: 2.0.11
       pathe: 2.0.3
@@ -5703,12 +5695,12 @@ snapshots:
       socket.io-client: 4.8.1
       std-env: 3.10.0
       tinyglobby: 0.2.15
-      ufo: 1.6.1
-      unctx: 2.4.1
+      ufo: 1.6.3
+      unctx: 2.5.0
       unified: 11.0.5
       unist-util-stringify-position: 4.0.0
       unist-util-visit: 5.0.0
-      unplugin: 2.3.10
+      unplugin: 2.3.11
       zod: 3.25.76
       zod-to-json-schema: 3.24.6(zod@3.25.76)
     optionalDependencies:
@@ -6046,16 +6038,16 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@nuxtjs/mdc@0.18.2(magicast@0.5.1)':
+  '@nuxtjs/mdc@0.18.4(magicast@0.5.1)':
     dependencies:
-      '@nuxt/kit': 4.2.1(magicast@0.5.1)
+      '@nuxt/kit': 4.3.0(magicast@0.5.1)
       '@shikijs/core': 3.15.0
       '@shikijs/langs': 3.15.0
       '@shikijs/themes': 3.15.0
       '@shikijs/transformers': 3.15.0
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
-      '@vue/compiler-core': 3.5.24
+      '@vue/compiler-core': 3.5.27
       consola: 3.4.2
       debug: 4.4.3
       defu: 6.1.4
@@ -6085,11 +6077,11 @@ snapshots:
       remark-stringify: 11.0.0
       scule: 1.3.0
       shiki: 3.15.0
-      ufo: 1.6.1
+      ufo: 1.6.3
       unified: 11.0.5
       unist-builder: 4.0.0
       unist-util-visit: 5.0.0
-      unwasm: 0.4.2
+      unwasm: 0.5.3
       vfile: 6.0.3
     transitivePeerDependencies:
       - magicast
@@ -9000,7 +8992,7 @@ snapshots:
 
   mocked-exports@0.1.1: {}
 
-  modern-tar@0.6.1: {}
+  modern-tar@0.7.6: {}
 
   mrmime@2.0.1: {}
 
@@ -9166,7 +9158,7 @@ snapshots:
     dependencies:
       boolbase: 1.0.0
 
-  nuxt-component-meta@https://pkg.pr.new/nuxt-component-meta@e3eb2c4(magicast@0.5.1):
+  nuxt-component-meta@0.14.2(magicast@0.5.1):
     dependencies:
       '@nuxt/kit': 4.3.0(magicast@0.5.1)
       citty: 0.1.6
@@ -9709,7 +9701,7 @@ snapshots:
   pkg-types@2.3.0:
     dependencies:
       confbox: 0.2.2
-      exsolve: 1.0.7
+      exsolve: 1.0.8
       pathe: 2.0.3
 
   playwright-core@1.56.1: {}
@@ -10089,7 +10081,7 @@ snapshots:
       unified: 11.0.5
       unist-util-visit: 5.0.0
       unist-util-visit-parents: 6.0.2
-      yaml: 2.8.1
+      yaml: 2.8.2
     transitivePeerDependencies:
       - supports-color
 
@@ -10769,15 +10761,6 @@ snapshots:
       pkg-types: 2.3.0
       unplugin: 2.3.10
 
-  unwasm@0.4.2:
-    dependencies:
-      exsolve: 1.0.7
-      knitwork: 1.2.0
-      magic-string: 0.30.21
-      mlly: 1.8.0
-      pathe: 2.0.3
-      pkg-types: 2.3.0
-
   unwasm@0.5.3:
     dependencies:
       exsolve: 1.0.8
@@ -10997,8 +10980,6 @@ snapshots:
   yallist@3.1.1: {}
 
   yallist@5.0.0: {}
-
-  yaml@2.8.1: {}
 
   yaml@2.8.2: {}
 
