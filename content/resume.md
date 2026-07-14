@@ -13,6 +13,7 @@ _2026 – Present_
 
 - **Team leadership:** Leading a team of 3 engineers building and maintaining the e-commerce platform.
 - **Scope:** Ownership across CMS, design system, AI chat, end-to-end testing, and core application code.
+- **Graphify:** Using Graphify to transform inputs (code, docs, papers, images, videos) into knowledge graphs pushed to a Neo4j database, then querying and exploiting that information via an MCP tool integrated into the AI coding workflow.
 - **Engineering practices:** Driving [mob programming](/misc) as the team's default mode of working to spread knowledge and raise code quality.
 - **Spec-driven development:** Using OpenSpec to formalize proposals and specifications before implementation, aligning product intent with delivery.
 
